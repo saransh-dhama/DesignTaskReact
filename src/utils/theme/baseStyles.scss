@@ -1,0 +1,105 @@
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    font-weight: 400;
+}
+
+html {
+    overflow: unset !important;
+    font-size: 10px;
+}
+
+body {
+    position: relative;
+    height: 100%;
+    margin: 0;
+    font-family: "Lato", -apple-system, BlinkMacSystemFont, "Lato",
+        "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #312f2f;
+}
+
+main {
+    height: fit-content;
+}
+
+head {
+    top: 0;
+    left: auto;
+    right: 0;
+    position: fixed;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+
+    &:hover {
+        text-decoration: none;
+        color: inherit;
+    }
+}
+
+section {
+    width: 100%;
+}
+
+button:focus {
+    outline: 0;
+}
+
+#wrapper {
+    padding-left: 0;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+@media(min-width:768px) {
+    #wrapper {
+        padding-left: 0;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 992px) {
+    .container {
+        max-width: 90vw;
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1100px) {
+    .container {
+        max-width: 95vw;
+    }
+}
+
+@media (min-width: 1400px) {
+    .container {
+        max-width: 77vw;
+    }
+}
+
+@media (min-width: 1500px) and (max-width: 1600px) {
+    .container {
+        max-width: 72vw;
+    }
+}
