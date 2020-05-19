@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
 
 import Routes from '../../utils/router.jsx';
-import Aux from '../aux/aux.jsx';
+
 import styled, { createGlobalStyle } from 'styled-components';
 import Navigation from '../../components/navigation';
 const GlobalStyle = createGlobalStyle`
@@ -16,7 +16,7 @@ const Main = styled.main`
 
 const Layout = () => {
 	return (
-		<Aux>
+		<>
 			<GlobalStyle />
 			<BrowserRouter>
 				<Navigation />
@@ -24,7 +24,7 @@ const Layout = () => {
 					<Routes />
 				</Main>
 			</BrowserRouter>
-		</Aux>
+		</>
 	);
 };
 

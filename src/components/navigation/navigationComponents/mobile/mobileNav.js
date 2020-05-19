@@ -6,7 +6,7 @@ import MenuToggle from './menuSvg';
 import NavigationItems from '../allNavigationLinks';
 
 const NavigationBarMobile = styled.section`
-	background: ${(props) => props.theme.background};
+	background: white;
 	position: fixed;
 	width: 100%;
 	z-index: 1000;
@@ -49,7 +49,7 @@ const MenuToggleSection = styled.section`
 	cursor: pointer;
 `;
 let SideWrapperSection = styled.section`
-	background: ${(props) => props.theme.background};
+	background: white;
 	z-index: 998;
 	position: fixed;
 	left: 250px;
@@ -76,7 +76,6 @@ let SideWrapperSection = styled.section`
 		li {
 			text-indent: 20px;
 			line-height: 50px;
-			cursor: pointer;
 			font-size: 1.6em;
 			a {
 				display: block;

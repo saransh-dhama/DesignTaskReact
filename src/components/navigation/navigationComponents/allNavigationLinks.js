@@ -3,7 +3,11 @@ import styled from 'styled-components';
 
 import NavigationItem from '../../basicComponents/navLink';
 
-const NavigationList = styled.nav``;
+const NavigationList = styled.nav`
+	@media (max-width: 813px) {
+		flex-direction: column;
+	}
+`;
 
 const LinksItems = styled.li`
 	a {

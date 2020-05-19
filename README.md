@@ -1,4 +1,4 @@
-This project was a design task for a **\*\*\*\*** company
+This project was a design task for **\*\*\*\*** company
 
 ## Available Scripts
 
