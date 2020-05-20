@@ -8,7 +8,7 @@ const Header = styled.header`
 	position: fixed;
 	z-index: 999;
 	width: 100%;
-	height: 70px;
+	height: 59px;
 	font-size: 1rem;
 `;
 const Navigation = () => {
