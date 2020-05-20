@@ -7,6 +7,7 @@ export const Constants = {
 	fontLight: '300',
 	fontRegular: '400',
 	fontBold: '700',
+	radius: '3px',
 };
 
 export default Constants;
