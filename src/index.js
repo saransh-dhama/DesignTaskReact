@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './utils/theme/baseStyles.scss';
 import * as serviceWorker from './serviceWorker';
 
 import { Provider } from 'react-redux';
 import { store, persistor } from './redux/store';
 import { PersistGate } from 'redux-persist/integration/react';
-import './utils/theme/baseStyles.scss';
+
 import App from './App';
 
 // persistor.purge();

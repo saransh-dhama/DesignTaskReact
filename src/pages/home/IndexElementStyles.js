@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 export const HomePage = styled.section`
 	background: ${(props) => props.theme.background};
+	height: calc(100vh - 59px);
 	padding-top: 39px;
 	h1 {
 		font-size: 18px;
@@ -51,12 +52,20 @@ export const ContentDiv = styled.div`
 `;
 export const RightContentDiv = styled(ContentDiv)`
 	width: 66.66%;
-	padding: 15px;
+	padding: 15px 10px 0px 15px;
 	@media (max-width: 813px) {
 		width: 100%;
 	}
 `;
 export const LeftContentDiv = styled(ContentDiv)`
 	width: 33.33%;
-	padding: 15px;
+	padding: 11px 0px 0px 0px;
+	max-width: 319px;
+`;
+export const LeftContent = styled.div`
+	background: #d8d8d8;
+	height: calc(100vh - 220px);
+	max-height: 80vh;
+	overflow: auto;
+	padding-bottom: 10px;
 `;

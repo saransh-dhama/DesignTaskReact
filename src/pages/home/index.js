@@ -4,9 +4,12 @@ import {
 	HomePage,
 	RightContentDiv,
 	LeftContentDiv,
+	LeftContent,
 } from './IndexElementStyles';
 import { Data } from './campaignData';
 import Block from './homePageComponents/contentBlock';
+import ToDoBlock from './homePageComponents/toDoBlock';
+
 const HomePageComponent = () => {
 	return (
 		<HomePage className='home-page__section'>
@@ -15,15 +18,24 @@ const HomePageComponent = () => {
 				<button className='createDesktop'>CREATE A NEW CAMPAIGN</button>
 				<button className='createMobile'>+</button>
 				<div className='row'>
-					<RightContentDiv>
+					<RightContentDiv className='rightContent__div'>
 						<Block title='Ongoing Campaigns'>
 							{Data.map((campaignData, index) => {
 								return <Campaign campaign={campaignData} key={index} />;
 							})}
 						</Block>
 					</RightContentDiv>
-					<LeftContentDiv>
-						<Block title="My to do's (3)"></Block>
+					<LeftContentDiv className='leftContent__div'>
+						<Block title="My to do's (3)">
+							<LeftContent className='leftContent__wrapper__div'>
+								<ToDoBlock />
+								<ToDoBlock />
+								<ToDoBlock />
+								<ToDoBlock />
+								<ToDoBlock />
+								<ToDoBlock />
+							</LeftContent>
+						</Block>
 					</LeftContentDiv>
 				</div>
 			</div>
