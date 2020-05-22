@@ -13,7 +13,7 @@ export const NavigationBarDesktop = styled(Navbar)`
 export const LogoSection = styled.section`
 	position: absolute;
 	width: 100px;
-	left: 15px;
+	left: 0;
 	a {
 		font-family: Baskerville-Serial-Heavy-Regular;
 		font-size: 22px;

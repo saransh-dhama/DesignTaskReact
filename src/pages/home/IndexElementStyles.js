@@ -1,8 +1,9 @@
 import styled from 'styled-components';
 export const HomePage = styled.section`
 	background: ${(props) => props.theme.background};
-	height: calc(100vh - 59px);
-	padding-top: 39px;
+	min-height: calc(100vh - 59px);
+	padding: 39px 0px;
+
 	h1 {
 		font-size: 18px;
 		font-weight: ${(props) => props.theme.fontBold};
@@ -42,6 +43,11 @@ export const HomePage = styled.section`
 			display: none;
 		}
 	}
+	@media (min-width: 813px) {
+		.home-page__section__container {
+			padding-left: 0px;
+		}
+	}
 `;
 export const ContentDiv = styled.div`
 	h2 {
@@ -61,11 +67,54 @@ export const LeftContentDiv = styled(ContentDiv)`
 	width: 33.33%;
 	padding: 11px 0px 0px 0px;
 	max-width: 319px;
+	@media (max-width: 813px) {
+		width: 100%;
+		max-width: 100%;
+		padding: 15px;
+	}
 `;
 export const LeftContent = styled.div`
 	background: #d8d8d8;
-	height: calc(100vh - 220px);
-	max-height: 80vh;
+	max-height: calc(100vh - 110px);
+
 	overflow: auto;
 	padding-bottom: 10px;
+	@media (max-width: 813px) {
+		max-height: 280px;
+	}
+`;
+export const StickyDiv = styled.div`
+	position: sticky;
+	top: 100px;
+`;
+
+export const StatsInfluencersWrapperDiv = styled.div`
+	padding: 13px 15px 15px 15px;
+	display: inline-flex;
+	justify-content: flex-start;
+`;
+export const StatisticsDiv = styled.div`
+	width: 300px;
+	margin-right: 21px;
+	@media (max-width: 990px) {
+		width: 100%;
+		max-width: 100%;
+		margin-right: unset;
+	}
+`;
+
+export const InfluencersDiv = styled.div`
+	padding: 0px;
+	width: 33.33%;
+	min-width: 300px;
+	@media (max-width: 990px) {
+		width: 100%;
+		max-width: 100%;
+		margin-bottom: 23px;
+	}
+	@media (max-width: 813px) {
+		width: 100%;
+		max-width: 100%;
+		padding: 15px;
+	}
 `;

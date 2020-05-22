@@ -5,11 +5,16 @@ import {
 	RightContentDiv,
 	LeftContentDiv,
 	LeftContent,
+	StatsInfluencersWrapperDiv,
+	StatisticsDiv,
+	InfluencersDiv,
+	StickyDiv,
 } from './IndexElementStyles';
-import { Data } from './campaignData';
+import { Data, ToDoData, Influencers } from './pageData';
 import Block from './homePageComponents/contentBlock';
 import ToDoBlock from './homePageComponents/toDoBlock';
-
+import InfluencerBlock from './homePageComponents/InfluencersBlock';
+import StatsBlock from './homePageComponents/statsBlock';
 const HomePageComponent = () => {
 	return (
 		<HomePage className='home-page__section'>
@@ -24,18 +29,38 @@ const HomePageComponent = () => {
 								return <Campaign campaign={campaignData} key={index} />;
 							})}
 						</Block>
+						<StatsInfluencersWrapperDiv className='StatsInfluencersWrapper__div row'>
+							<StatisticsDiv className='Statistics__div'>
+								<Block title='Statistics overview'>
+									<StatsBlock />
+								</Block>
+							</StatisticsDiv>
+							<InfluencersDiv className='Influencers__div'>
+								<Block title='Top influencers'>
+									{Influencers.map((Influencer, index) => {
+										return <InfluencerBlock data={Influencer} key={index} />;
+									})}
+								</Block>
+							</InfluencersDiv>
+							<InfluencersDiv className='Influencers__div'>
+								<Block title='Top influencers'>
+									{Influencers.map((Influencer, index) => {
+										return <InfluencerBlock data={Influencer} key={index} />;
+									})}
+								</Block>
+							</InfluencersDiv>
+						</StatsInfluencersWrapperDiv>
 					</RightContentDiv>
 					<LeftContentDiv className='leftContent__div'>
-						<Block title="My to do's (3)">
-							<LeftContent className='leftContent__wrapper__div'>
-								<ToDoBlock />
-								<ToDoBlock />
-								<ToDoBlock />
-								<ToDoBlock />
-								<ToDoBlock />
-								<ToDoBlock />
-							</LeftContent>
-						</Block>
+						<StickyDiv>
+							<Block title="My to do's (3)">
+								<LeftContent className='leftContent__wrapper__div'>
+									{ToDoData.map((todo, index) => {
+										return <ToDoBlock data={todo} key={index} />;
+									})}
+								</LeftContent>
+							</Block>
+						</StickyDiv>
 					</LeftContentDiv>
 				</div>
 			</div>

@@ -1,14 +1,19 @@
 import React from 'react';
 import styled from 'styled-components';
 import ContentTypeBody from './contentTypeBody';
+import PersonTypeBody from './personTypeBody';
+
 const ToDoBlockWrapper = styled.div`
 	background: white;
 	border-radius: ${(props) => props.theme.radius};
 	width: 293px;
-	height: 236px;
+	max-height: 236px;
 	margin: auto;
 	margin-top: 10px;
 	font-size: 1rem;
+	@media (max-width: 990px) {
+		width: 93%;
+	}
 `;
 const HeadingDiv = styled.div`
 	background: #f4f4f4;
@@ -40,20 +45,23 @@ const ActionDiv = styled.div`
 		text-align: center;
 		border: 1px solid #d9d9d9;
 		border-radius: ${(props) => props.theme.radius};
+		background: white;
 	}
 `;
-const ToDoBlock = () => {
+const ToDoBlock = ({ data, ...props }) => {
 	return (
 		<ToDoBlockWrapper className='toDoBlock__div'>
 			<HeadingDiv className='heading__div'>
-				<span className='name'>Ellaria Dorne </span>
-				<span className='activity'>
-					uploaded instagram content for proof to your campaign
-				</span>
-				<span className='campaign'> 'Nike Sneaker Campaign II'</span>
+				<span className='name'>{data.name} </span>
+				<span className='activity'>{data.activity}</span>
+				<span className='campaign'> {`'${data.campaign}'`}</span>
 			</HeadingDiv>
 			<BodyDiv className='body__div'>
-				<ContentTypeBody />
+				{data.type === 'content' ? (
+					<ContentTypeBody data={data} />
+				) : (
+					<PersonTypeBody data={data} />
+				)}
 			</BodyDiv>
 			<ActionDiv>
 				<button>Accept</button>

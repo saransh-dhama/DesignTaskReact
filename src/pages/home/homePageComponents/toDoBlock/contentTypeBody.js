@@ -27,12 +27,12 @@ const ContentTypeBodyDiv = styled.div`
 		}
 	}
 `;
-const ContentTypeBody = () => {
+const ContentTypeBody = ({ data, ...props }) => {
 	return (
 		<ContentTypeBodyDiv className='type_new_content__div'>
 			<img
 				className='new_content__img'
-				src={require('../../../../assets/images/content1.png')}
+				src={require(`../../../../assets/images/${data.img}`)}
 				alt='instaIcon'
 			/>
 
@@ -42,14 +42,11 @@ const ContentTypeBody = () => {
 						src={require('../../../../assets/icons/instaGray.svg')}
 						alt='instaIcon'
 					/>{' '}
-					<span>02.07.2016</span>
+					<span>{data.date}</span>
 				</div>
 				<div className='text'>
-					<span>Who sasy you can't be elegant in sneakers?! :) </span>
-					<span className='hashTags'>
-						#nike #sneakers #morningoutfit #liveyourlife #fashion #dailyfashion
-						#fashionista
-					</span>
+					<span>{data.text}</span>
+					<span className='hashTags'>{data.hashTags}</span>
 				</div>
 			</div>
 		</ContentTypeBodyDiv>
