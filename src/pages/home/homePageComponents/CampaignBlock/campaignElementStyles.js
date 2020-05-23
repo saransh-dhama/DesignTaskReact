@@ -135,7 +135,7 @@ const SmallNumberDiv = styled.div`
 	grid-column-gap: 20px;
 	grid-template-columns: repeat(auto-fit, minmax(60px, 60px));
 	@media (max-width: 990px) {
-		grid-column-gap: 15px;
+		grid-column-gap: 0;
 		grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
 	}
 `;
