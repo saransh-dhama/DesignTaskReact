@@ -1,5 +1,4 @@
-@import "../../../node_modules/bootstrap/scss/functions";
-@import "../../../node_modules/bootstrap/scss/variables";
+@import "../../assets/sass/_bootstrap.scss";
 
 h1,
 h2,
@@ -31,7 +30,6 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-weight: 400;
-    font-size: 1rem;
     line-height: 1.5;
     color: #484848;
 }

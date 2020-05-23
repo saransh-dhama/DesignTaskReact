@@ -27,7 +27,7 @@ export const Data = [
 		snapchat: false,
 		watch: false,
 		img: 'yoga.png',
-		influencersCount: 9,
+		influencersCount: 11,
 		instaStats: {
 			reach: '34 567',
 			likes: '5 789',
@@ -128,3 +128,78 @@ export const Influencers = [
 		img: 'dp5.png',
 	},
 ];
+
+export const ChartData = {
+	weekly: [
+		{
+			id: 'stats',
+			color: 'hsl(340, 100%, 48%)',
+			posts: '123',
+			likes: '5 789',
+			snaps: '34 567',
+			opens: '5 789',
+			data: [
+				{
+					x: 'MON',
+					y: 0,
+				},
+				{
+					x: 'TUE',
+					y: 25,
+				},
+				{
+					x: 'WED',
+					y: 15,
+				},
+				{
+					x: 'THU',
+					y: 60,
+				},
+				{
+					x: 'FRI',
+					y: 25,
+				},
+				{
+					x: 'SAT',
+					y: 100,
+				},
+				{
+					x: 'SUN',
+					y: 50,
+				},
+			],
+		},
+	],
+	monthly: [
+		{
+			id: 'stats',
+			color: 'hsl(340, 100%, 48%)',
+			posts: '1 123',
+			likes: '55 789',
+			snaps: '64 567',
+			opens: '15 789',
+			data: [
+				{
+					x: 'JAN',
+					y: 0,
+				},
+				{
+					x: 'FEB',
+					y: 45,
+				},
+				{
+					x: 'MAR',
+					y: 65,
+				},
+				{
+					x: 'APR',
+					y: 60,
+				},
+				{
+					x: 'MAY',
+					y: 100,
+				},
+			],
+		},
+	],
+};

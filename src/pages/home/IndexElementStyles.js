@@ -95,7 +95,6 @@ export const StatsInfluencersWrapperDiv = styled.div`
 `;
 export const StatisticsDiv = styled.div`
 	width: 300px;
-	margin-right: 21px;
 	@media (max-width: 990px) {
 		width: 100%;
 		max-width: 100%;
@@ -106,7 +105,8 @@ export const StatisticsDiv = styled.div`
 export const InfluencersDiv = styled.div`
 	padding: 0px;
 	width: 33.33%;
-	min-width: 300px;
+	min-width: 295px;
+	margin-left: 21px;
 	@media (max-width: 990px) {
 		width: 100%;
 		max-width: 100%;

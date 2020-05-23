@@ -1,6 +1,8 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
 import Chart from './chart';
+import Insta from '../../../../assets/svg/insta';
+import Snap from '../../../../assets/svg/snap';
 
 export const StatsDiv = styled.div`
 	width: 100%;
@@ -16,13 +18,16 @@ export const TabDiv = styled.div`
 	border-bottom: 1px solid #d8d8d8;
 	display: flex;
 	justify-content: space-around;
-	button {
-		border: none;
-		width: 57px;
-		border-bottom: 2px solid ${(props) => props.theme.primaryColor};
-		padding: 8px;
-		font-size: 1.2em;
-	}
+`;
+export const TabButton = styled.button`
+	border: none;
+	width: 57px;
+	padding: 8px;
+	font-size: 1.2em;
+	${(props) =>
+		props.active
+			? `border-bottom: 2px solid ${props.theme.primaryColor};`
+			: null}
 `;
 export const DropDownDiv = styled.div`
 	width: 100%;
@@ -82,31 +87,66 @@ export const StatNumbersDiv = styled.div`
 		border: 1px solid #d8d8d8;
 		border-radius: 3px;
 		justify-content: center;
-	}
-	.number {
-		font-weight: ${(props) => props.theme.fontBold};
-		font-size: 1.8em;
-		color: ${(props) => props.theme.primaryColor};
-		text-align: center;
-		display: block;
-		margin-bottom: -3px;
-	}
-	.type {
-		display: block;
-		font-weight: ${(props) => props.theme.fontBold};
-		font-size: 0.8em;
-		color: ${(props) => props.theme.colorLightEx};
-		text-align: center;
-		text-transform: uppercase;
+		cursor: pointer;
+		.number {
+			font-weight: ${(props) => props.theme.fontBold};
+			font-size: 1.8em;
+			color: ${(props) => props.theme.primaryColor};
+			text-align: center;
+			display: block;
+			margin-bottom: -3px;
+		}
+		.type {
+			display: block;
+			font-weight: ${(props) => props.theme.fontBold};
+			font-size: 0.8em;
+			color: ${(props) => props.theme.colorLightEx};
+			text-align: center;
+			text-transform: uppercase;
+			svg {
+				margin-right: 2px;
+				#instaIconSvg,
+				#snap {
+					fill: ${(props) => props.theme.colorLightEx};
+				}
+			}
+		}
+		&:hover {
+			background: ${(props) => props.theme.primaryColor};
+			box-shadow: inset 0 1px 1px 0 #950031;
+			.number,
+			.type {
+				color: white;
+			}
+			svg {
+				#instaIconSvg,
+				#snap {
+					fill: white;
+				}
+			}
+		}
 	}
 `;
 
-const StatsBlock = () => {
+const StatsBlock = ({ data, ...props }) => {
+	const [isWeekly, setIsWeekly] = useState(true);
+	const [allData, setData] = useState(data.weekly);
+	const statData = allData[0];
+	const toggleWeekly = () => {
+		setIsWeekly(!isWeekly);
+	};
+	useEffect(() => {
+		setData(isWeekly ? data.weekly : data.monthly);
+	}, [setData, isWeekly, data.weekly, data.monthly]);
 	return (
 		<StatsDiv>
 			<TabDiv className='tab__div'>
-				<button>Weekly</button>
-				<button>Monthly</button>
+				<TabButton active={isWeekly} onClick={toggleWeekly}>
+					Weekly
+				</TabButton>
+				<TabButton active={!isWeekly} onClick={toggleWeekly}>
+					Monthly
+				</TabButton>
 			</TabDiv>
 			<DropDownDiv className='dropdown__div'>
 				<span className='text'>Choose campaign:</span>
@@ -122,36 +162,48 @@ const StatsBlock = () => {
 					</button>
 					<div className='dropdown-menu'>
 						<a className='dropdown-item' href='#'>
-							Action
+							All
 						</a>
 						<a className='dropdown-item' href='#'>
-							Another action
+							NIKE Sneaker Campaign Summer II
 						</a>
 						<a className='dropdown-item' href='#'>
-							Something else here
+							#DOYOUYOGA Campaign
 						</a>
 					</div>
 				</div>
 			</DropDownDiv>
 			<ChartDiv className='chart__div'>
-				<Chart />
+				<Chart data={allData} />
 			</ChartDiv>
 			<StatNumbersDiv className='statNumbers__div'>
 				<div className='eachStatBlock'>
-					<span className='number'>123</span>
-					<span className='type'>posts</span>
+					<span className='number'>{statData.posts}</span>
+					<span className='type'>
+						<Insta />
+						posts
+					</span>
 				</div>
 				<div className='eachStatBlock'>
-					<span className='number'>123</span>
-					<span className='type'>posts</span>
+					<span className='number'>{statData.likes}</span>
+					<span className='type'>
+						<Insta />
+						likes
+					</span>
 				</div>
 				<div className='eachStatBlock'>
-					<span className='number'>123</span>
-					<span className='type'>posts</span>
+					<span className='number'>{statData.snaps}</span>
+					<span className='type'>
+						<Snap />
+						snaps
+					</span>
 				</div>
 				<div className='eachStatBlock'>
-					<span className='number'>123</span>
-					<span className='type'>posts</span>
+					<span className='number'>{statData.opens}</span>
+					<span className='type'>
+						<Snap />
+						opens
+					</span>
 				</div>
 			</StatNumbersDiv>
 		</StatsDiv>

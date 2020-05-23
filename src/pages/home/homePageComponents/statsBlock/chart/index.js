@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 import { ResponsiveLine } from '@nivo/line';
-import { Data } from '../data.js';
 
 export const ChartDiv = styled.div`
 	width: 270px;
@@ -19,11 +18,11 @@ const theme = {
 	fontSize: '8px',
 	textColor: '#484848',
 };
-const Chart = () => {
+const Chart = ({ data, ...props }) => {
 	return (
 		<ResponsiveLine
-			data={Data}
-			margin={{ top: 10, right: 10, bottom: 20, left: 30 }}
+			data={data}
+			margin={{ top: 10, right: 15, bottom: 20, left: 30 }}
 			xScale={{ type: 'point' }}
 			theme={theme}
 			yScale={{

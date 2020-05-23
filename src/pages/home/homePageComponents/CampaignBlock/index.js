@@ -60,11 +60,11 @@ const CampaingBlockComponent = ({ campaign, ...props }) => {
 							</CampaignStatusDiv>
 							<CampaignStatusDiv>
 								<span className='influencers'>
-									{campaign.timeRemaining} influencers
+									{campaign.influencersCount} influencers
 								</span>
 							</CampaignStatusDiv>
 							<CampaignStatusDiv>
-								<span className='name'>NIKE Sneaker Campaign Summer II</span>
+								<span className='name'>{campaign.name}</span>
 							</CampaignStatusDiv>
 						</div>
 						<StatsDiv className='statsDiv'>
@@ -132,7 +132,7 @@ const CampaingBlockComponent = ({ campaign, ...props }) => {
 									</EachStatBlock>
 									<EachStatBlock>
 										<span className='number'>
-											{campaign.snapchatStats.completion}
+											{`${campaign.snapchatStats.completion} %`}
 										</span>
 										<span className='type'>
 											<img

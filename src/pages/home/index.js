@@ -10,7 +10,7 @@ import {
 	InfluencersDiv,
 	StickyDiv,
 } from './IndexElementStyles';
-import { Data, ToDoData, Influencers } from './pageData';
+import { Data, ToDoData, Influencers, ChartData } from './pageData';
 import Block from './homePageComponents/contentBlock';
 import ToDoBlock from './homePageComponents/toDoBlock';
 import InfluencerBlock from './homePageComponents/InfluencersBlock';
@@ -32,7 +32,7 @@ const HomePageComponent = () => {
 						<StatsInfluencersWrapperDiv className='StatsInfluencersWrapper__div row'>
 							<StatisticsDiv className='Statistics__div'>
 								<Block title='Statistics overview'>
-									<StatsBlock />
+									<StatsBlock data={ChartData} />
 								</Block>
 							</StatisticsDiv>
 							<InfluencersDiv className='Influencers__div'>

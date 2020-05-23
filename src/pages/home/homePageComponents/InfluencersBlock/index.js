@@ -37,8 +37,9 @@ const InfluencersDiv = styled.div`
 		border: 1px solid #d9d9d9;
 		border-radius: ${(props) => props.theme.radius};
 		padding: 1px 12px;
-		height: 34px;
+		height: 35px;
 		width: 85px;
+		line-height: 13px;
 	}
 `;
 const Influencer = ({ data, ...props }) => {
