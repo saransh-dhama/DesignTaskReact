@@ -41,17 +41,16 @@ export const IconDiv = styled.div`
 	}
 `;
 export const ContentDiv = styled.div`
-	padding: 25px 34px 25px 0px;
-
+	padding: 15px;
 	.infoDiv {
-		width: 213px;
-		display: inline-block;
-		padding-left: 20px;
+		padding-left: 4px;
 	}
-	@media (max-width: 990px) {
-		padding: 15px 15px 15px 0px;
+	@media (min-width: 991px) {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
 		.infoDiv {
-			width: 40%;
+			width: 213px;
 		}
 	}
 `;
@@ -119,33 +118,25 @@ export const EachStatBlock = styled.div`
 	}
 `;
 export const StatsDiv = styled.div`
-	margin-top: 15px;
-	margin-left: 15px;
 	max-width: 225px;
-	float: right;
-	@media (min-width: 991px) {
-		width: 225px;
-		display: flex;
-		flex-direction: column;
-		height: 100%;
-		justify-content: space-evenly;
-		margin-top: -6px;
-	}
-	.instaStatsDiv {
-		margin-bottom: 8px;
-	}
-	.instaStatsDiv,
-	.snapchatStatsDiv {
-		display: flex;
-		justify-content: space-between;
+	display: grid;
+	grid-column-gap: 21px;
+	grid-row-gap: 8px;
+	grid-template-columns: repeat(auto-fit, minmax(225px, 1fr));
+
+	@media (max-width: 990px) {
+		margin-top: 10px;
+		max-width: 100%;
+		grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 	}
 `;
-export const InstaStatsDiv = styled.div`
-	margin-bottom: 8px;
-	display: flex;
-	justify-content: space-between;
+const SmallNumberDiv = styled.div`
+	display: grid;
+	grid-column-gap: 20px;
+	grid-template-columns: repeat(auto-fit, minmax(60px, 60px));
+	@media (max-width: 990px) {
+		grid-column-gap: 15px;
+	}
 `;
-export const SnapchatStatsDiv = styled.div`
-	display: flex;
-	justify-content: space-between;
-`;
+export const InstaStatsDiv = styled(SmallNumberDiv)``;
+export const SnapchatStatsDiv = styled(SmallNumberDiv)``;

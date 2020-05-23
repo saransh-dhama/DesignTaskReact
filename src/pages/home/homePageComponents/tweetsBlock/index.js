@@ -44,7 +44,13 @@ const TweetsDiv = styled.div`
 const Tweet = ({ data, ...props }) => {
 	const GetHighlightedText = (text, highlight) => {
 		const parts = text.split(new RegExp(`(${highlight})`, 'gi'));
-		return `${parts[0]}<b>${parts[1]}</b>${parts[2]}`;
+		let formatedText = `${parts[0] ? parts[0] : ``}<b>${
+			parts[1] ? parts[1] : ``
+		}</b>`;
+		for (let i = 2; i < parts.length; i++) {
+			formatedText = formatedText + `${parts[i] ? parts[i] : ``}`;
+		}
+		return formatedText;
 	};
 	function createMarkup() {
 		const markUp = data.entities.hashtags.reduce(function (
@@ -77,6 +83,8 @@ const Tweet = ({ data, ...props }) => {
 
 				<div className='tweet'>
 					<span dangerouslySetInnerHTML={createMarkup()}></span>
+					<br />
+					{data.text}
 				</div>
 			</div>
 		</TweetsDiv>
