@@ -61,9 +61,20 @@ export const DropDownDiv = styled.div`
 			width: 100%;
 			${(props) =>
 				props.isDropdownVisible ? 'display: block;' : 'display: none;'}
+			padding:0px;
 			button {
 				background: white;
 				font-size: 1.2em;
+				font-size: 1.2em;
+				white-space: break-spaces;
+				line-height: 13px;
+				padding: 9px 5px;
+				&:not(:last-child) {
+					border-bottom: 1px solid #d8d8d9;
+				}
+				&:hover {
+					background: #c6c6c64a;
+				}
 			}
 		}
 	}

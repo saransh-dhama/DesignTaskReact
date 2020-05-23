@@ -1,0 +1,3347 @@
+{
+	"statuses": [
+		{
+			"created_at": "Fri May 22 12:00:31 +0000 2020",
+			"id": 1263801914023530497,
+			"id_str": "1263801914023530497",
+			"text": "RT @claubs_uy: \u00a1A\u00fan estas a tiempo de sumarte al pr\u00f3ximo webinar de @testingUY junto a @khr_ux! #testinguy #usability #ux #design\n\nhttps://\u2026",
+			"truncated": false,
+			"entities": {
+				"hashtags": [
+					{
+						"text": "testinguy",
+						"indices": [96, 106]
+					},
+					{
+						"text": "usability",
+						"indices": [107, 117]
+					},
+					{
+						"text": "ux",
+						"indices": [118, 121]
+					},
+					{
+						"text": "design",
+						"indices": [122, 129]
+					}
+				],
+				"symbols": [],
+				"user_mentions": [
+					{
+						"screen_name": "claubs_uy",
+						"name": "Claudia Badell",
+						"id": 3405626939,
+						"id_str": "3405626939",
+						"indices": [3, 13]
+					},
+					{
+						"screen_name": "testingUY",
+						"name": "TestingUy",
+						"id": 1452134706,
+						"id_str": "1452134706",
+						"indices": [68, 78]
+					},
+					{
+						"screen_name": "khr_ux",
+						"name": "Kevin Richardson",
+						"id": 1632919062,
+						"id_str": "1632919062",
+						"indices": [87, 94]
+					}
+				],
+				"urls": []
+			},
+			"metadata": {
+				"iso_language_code": "es",
+				"result_type": "recent"
+			},
+			"source": "\u003ca href=\"http://twitter.com/download/android\" rel=\"nofollow\"\u003eTwitter for Android\u003c/a\u003e",
+			"in_reply_to_status_id": null,
+			"in_reply_to_status_id_str": null,
+			"in_reply_to_user_id": null,
+			"in_reply_to_user_id_str": null,
+			"in_reply_to_screen_name": null,
+			"user": {
+				"id": 755366486,
+				"id_str": "755366486",
+				"name": "TechMeetup",
+				"screen_name": "meetupUY",
+				"location": "Uruguay",
+				"description": "Conferencia para desarrolladores, dise\u00f1adores y profesionales de IT de Uruguay.",
+				"url": null,
+				"entities": {
+					"description": {
+						"urls": []
+					}
+				},
+				"protected": false,
+				"followers_count": 1817,
+				"friends_count": 357,
+				"listed_count": 45,
+				"created_at": "Mon Aug 13 15:47:06 +0000 2012",
+				"favourites_count": 123,
+				"utc_offset": null,
+				"time_zone": null,
+				"geo_enabled": false,
+				"verified": false,
+				"statuses_count": 1541,
+				"lang": null,
+				"contributors_enabled": false,
+				"is_translator": false,
+				"is_translation_enabled": false,
+				"profile_background_color": "F9F9F9",
+				"profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+				"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+				"profile_background_tile": false,
+				"profile_image_url": "http://pbs.twimg.com/profile_images/378800000527294621/1706af0fbc64348a05d56459e3eb68ca_normal.png",
+				"profile_image_url_https": "https://pbs.twimg.com/profile_images/378800000527294621/1706af0fbc64348a05d56459e3eb68ca_normal.png",
+				"profile_banner_url": "https://pbs.twimg.com/profile_banners/755366486/1416854941",
+				"profile_link_color": "2ECC71",
+				"profile_sidebar_border_color": "FFFFFF",
+				"profile_sidebar_fill_color": "DDEEF6",
+				"profile_text_color": "333333",
+				"profile_use_background_image": true,
+				"has_extended_profile": true,
+				"default_profile": false,
+				"default_profile_image": false,
+				"following": false,
+				"follow_request_sent": false,
+				"notifications": false,
+				"translator_type": "none"
+			},
+			"geo": null,
+			"coordinates": null,
+			"place": null,
+			"contributors": null,
+			"retweeted_status": {
+				"created_at": "Fri May 22 10:42:03 +0000 2020",
+				"id": 1263782168054181888,
+				"id_str": "1263782168054181888",
+				"text": "\u00a1A\u00fan estas a tiempo de sumarte al pr\u00f3ximo webinar de @testingUY junto a @khr_ux! #testinguy #usability #ux #design\n\nhttps://t.co/fjIIiggpWV",
+				"truncated": false,
+				"entities": {
+					"hashtags": [
+						{
+							"text": "testinguy",
+							"indices": [81, 91]
+						},
+						{
+							"text": "usability",
+							"indices": [92, 102]
+						},
+						{
+							"text": "ux",
+							"indices": [103, 106]
+						},
+						{
+							"text": "design",
+							"indices": [107, 114]
+						}
+					],
+					"symbols": [],
+					"user_mentions": [
+						{
+							"screen_name": "testingUY",
+							"name": "TestingUy",
+							"id": 1452134706,
+							"id_str": "1452134706",
+							"indices": [53, 63]
+						},
+						{
+							"screen_name": "khr_ux",
+							"name": "Kevin Richardson",
+							"id": 1632919062,
+							"id_str": "1632919062",
+							"indices": [72, 79]
+						}
+					],
+					"urls": [
+						{
+							"url": "https://t.co/fjIIiggpWV",
+							"expanded_url": "https://www.meetup.com/Testing-Uy/events/270179967/",
+							"display_url": "meetup.com/Testing-Uy/eve\u2026",
+							"indices": [116, 139]
+						}
+					]
+				},
+				"metadata": {
+					"iso_language_code": "es",
+					"result_type": "recent"
+				},
+				"source": "\u003ca href=\"https://mobile.twitter.com\" rel=\"nofollow\"\u003eTwitter Web App\u003c/a\u003e",
+				"in_reply_to_status_id": null,
+				"in_reply_to_status_id_str": null,
+				"in_reply_to_user_id": null,
+				"in_reply_to_user_id_str": null,
+				"in_reply_to_screen_name": null,
+				"user": {
+					"id": 3405626939,
+					"id_str": "3405626939",
+					"name": "Claudia Badell",
+					"screen_name": "claubs_uy",
+					"location": "Montevideo, Uruguay",
+					"description": "Computer Engineer | Software Testing Consultant & Trainer @jigsolabs | QE Lead @Portchain | Behind @testinguy | Avid traveler @valijasready",
+					"url": "https://t.co/MxzZWWxiIQ",
+					"entities": {
+						"url": {
+							"urls": [
+								{
+									"url": "https://t.co/MxzZWWxiIQ",
+									"expanded_url": "http://claudia-badell.com",
+									"display_url": "claudia-badell.com",
+									"indices": [0, 23]
+								}
+							]
+						},
+						"description": {
+							"urls": []
+						}
+					},
+					"protected": false,
+					"followers_count": 963,
+					"friends_count": 294,
+					"listed_count": 29,
+					"created_at": "Thu Aug 06 13:25:02 +0000 2015",
+					"favourites_count": 3489,
+					"utc_offset": null,
+					"time_zone": null,
+					"geo_enabled": true,
+					"verified": false,
+					"statuses_count": 2005,
+					"lang": null,
+					"contributors_enabled": false,
+					"is_translator": false,
+					"is_translation_enabled": true,
+					"profile_background_color": "C0DEED",
+					"profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+					"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+					"profile_background_tile": false,
+					"profile_image_url": "http://pbs.twimg.com/profile_images/1122153725001445376/Ios2gd4Y_normal.png",
+					"profile_image_url_https": "https://pbs.twimg.com/profile_images/1122153725001445376/Ios2gd4Y_normal.png",
+					"profile_banner_url": "https://pbs.twimg.com/profile_banners/3405626939/1523492412",
+					"profile_link_color": "1DA1F2",
+					"profile_sidebar_border_color": "C0DEED",
+					"profile_sidebar_fill_color": "DDEEF6",
+					"profile_text_color": "333333",
+					"profile_use_background_image": true,
+					"has_extended_profile": false,
+					"default_profile": true,
+					"default_profile_image": false,
+					"following": false,
+					"follow_request_sent": false,
+					"notifications": false,
+					"translator_type": "none"
+				},
+				"geo": null,
+				"coordinates": null,
+				"place": null,
+				"contributors": null,
+				"is_quote_status": false,
+				"retweet_count": 3,
+				"favorite_count": 2,
+				"favorited": false,
+				"retweeted": false,
+				"possibly_sensitive": false,
+				"lang": "es"
+			},
+			"is_quote_status": false,
+			"retweet_count": 3,
+			"favorite_count": 0,
+			"favorited": false,
+			"retweeted": false,
+			"lang": "es"
+		},
+		{
+			"created_at": "Fri May 22 12:00:14 +0000 2020",
+			"id": 1263801842632400896,
+			"id_str": "1263801842632400896",
+			"text": "The rise of quarantine #UX: How COVID-19 has upended the very idea of convenience: https://t.co/icLWHKUJRu via\u2026 https://t.co/WFixlNg1ZI",
+			"truncated": true,
+			"entities": {
+				"hashtags": [
+					{
+						"text": "UX",
+						"indices": [23, 26]
+					}
+				],
+				"symbols": [],
+				"user_mentions": [],
+				"urls": [
+					{
+						"url": "https://t.co/icLWHKUJRu",
+						"expanded_url": "https://buff.ly/2yrYzWw",
+						"display_url": "buff.ly/2yrYzWw",
+						"indices": [83, 106]
+					},
+					{
+						"url": "https://t.co/WFixlNg1ZI",
+						"expanded_url": "https://twitter.com/i/web/status/1263801842632400896",
+						"display_url": "twitter.com/i/web/status/1\u2026",
+						"indices": [112, 135]
+					}
+				]
+			},
+			"metadata": {
+				"iso_language_code": "en",
+				"result_type": "recent"
+			},
+			"source": "\u003ca href=\"https://buffer.com\" rel=\"nofollow\"\u003eBuffer\u003c/a\u003e",
+			"in_reply_to_status_id": null,
+			"in_reply_to_status_id_str": null,
+			"in_reply_to_user_id": null,
+			"in_reply_to_user_id_str": null,
+			"in_reply_to_screen_name": null,
+			"user": {
+				"id": 3146351,
+				"id_str": "3146351",
+				"name": "Eric Boduch",
+				"screen_name": "eboduch",
+				"location": "",
+				"description": "Entrepreneur and Founder of @pendoio. Host of the @productlovelive podcast.",
+				"url": "https://t.co/76wMf8QPoh",
+				"entities": {
+					"url": {
+						"urls": [
+							{
+								"url": "https://t.co/76wMf8QPoh",
+								"expanded_url": "https://productcraft.com/category/podcast/",
+								"display_url": "productcraft.com/category/podca\u2026",
+								"indices": [0, 23]
+							}
+						]
+					},
+					"description": {
+						"urls": []
+					}
+				},
+				"protected": false,
+				"followers_count": 5138,
+				"friends_count": 4047,
+				"listed_count": 102,
+				"created_at": "Sun Apr 01 18:54:55 +0000 2007",
+				"favourites_count": 5061,
+				"utc_offset": null,
+				"time_zone": null,
+				"geo_enabled": true,
+				"verified": false,
+				"statuses_count": 9677,
+				"lang": null,
+				"contributors_enabled": false,
+				"is_translator": false,
+				"is_translation_enabled": false,
+				"profile_background_color": "9AE4E8",
+				"profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+				"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+				"profile_background_tile": true,
+				"profile_image_url": "http://pbs.twimg.com/profile_images/1141359506519142400/fJDCDMDH_normal.png",
+				"profile_image_url_https": "https://pbs.twimg.com/profile_images/1141359506519142400/fJDCDMDH_normal.png",
+				"profile_banner_url": "https://pbs.twimg.com/profile_banners/3146351/1560958329",
+				"profile_link_color": "0084B4",
+				"profile_sidebar_border_color": "BDDCAD",
+				"profile_sidebar_fill_color": "DDFFCC",
+				"profile_text_color": "333333",
+				"profile_use_background_image": true,
+				"has_extended_profile": true,
+				"default_profile": false,
+				"default_profile_image": false,
+				"following": false,
+				"follow_request_sent": false,
+				"notifications": false,
+				"translator_type": "none"
+			},
+			"geo": null,
+			"coordinates": null,
+			"place": null,
+			"contributors": null,
+			"is_quote_status": false,
+			"retweet_count": 0,
+			"favorite_count": 0,
+			"favorited": false,
+			"retweeted": false,
+			"possibly_sensitive": false,
+			"lang": "en"
+		},
+		{
+			"created_at": "Fri May 22 12:00:07 +0000 2020",
+			"id": 1263801812894785536,
+			"id_str": "1263801812894785536",
+			"text": "UX\u30d5\u30a1\u30fc\u30b9\u30c8\u306a\u4f1a\u793e\u3063\u3066\u591a\u5206\u3001\u3053\u3046\u3044\u3046\u3053\u3068\u3055\u3089\u3063\u3066\u3084\u308b\u3093\u3060\u3088\u306a\u30fc\u3002\n\u8ab2\u91d1\u30e6\u30fc\u30b6\u30fc\u306b\u5bfe\u3057\u3066\u3053\u3053\u307e\u3067\u3084\u3063\u3066\u308b\u4f1a\u793e\u3063\u3066\u65e5\u672c\u3067\u3044\u308b\u3093\u304b\u306a\u2026\nNetflix\u3001\u4f11\u7720\u30a2\u30ab\u30a6\u30f3\u30c8\u306b\u300c\u652f\u6255\u3044\u7d9a\u3051\u307e\u3059\u304b\uff1f\u3000\u9000\u4f1a\u3057\u307e\u3059\u304b\uff1f\u300d\u78ba\u8a8d\u30e1\u30fc\u30eb\u2026 https://t.co/fJVeYzabDI",
+			"truncated": true,
+			"entities": {
+				"hashtags": [],
+				"symbols": [],
+				"user_mentions": [],
+				"urls": [
+					{
+						"url": "https://t.co/fJVeYzabDI",
+						"expanded_url": "https://twitter.com/i/web/status/1263801812894785536",
+						"display_url": "twitter.com/i/web/status/1\u2026",
+						"indices": [108, 131]
+					}
+				]
+			},
+			"metadata": {
+				"iso_language_code": "ja",
+				"result_type": "recent"
+			},
+			"source": "\u003ca href=\"https://buffer.com\" rel=\"nofollow\"\u003eBuffer\u003c/a\u003e",
+			"in_reply_to_status_id": null,
+			"in_reply_to_status_id_str": null,
+			"in_reply_to_user_id": null,
+			"in_reply_to_user_id_str": null,
+			"in_reply_to_screen_name": null,
+			"user": {
+				"id": 156269867,
+				"id_str": "156269867",
+				"name": "\u5177\u5fd7\u5805",
+				"screen_name": "g08m11",
+				"location": "\u65e5\u672c \u6771\u4eac",
+				"description": "\u30b3\u30fc\u30c9\u7cfb\u3067\u3067\u304d\u308b\u4e8b:Swift/Kotlin/GCP/SQL",
+				"url": null,
+				"entities": {
+					"description": {
+						"urls": []
+					}
+				},
+				"protected": false,
+				"followers_count": 970,
+				"friends_count": 535,
+				"listed_count": 83,
+				"created_at": "Wed Jun 16 13:33:53 +0000 2010",
+				"favourites_count": 132,
+				"utc_offset": null,
+				"time_zone": null,
+				"geo_enabled": true,
+				"verified": false,
+				"statuses_count": 32793,
+				"lang": null,
+				"contributors_enabled": false,
+				"is_translator": false,
+				"is_translation_enabled": false,
+				"profile_background_color": "C0DCF1",
+				"profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+				"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+				"profile_background_tile": false,
+				"profile_image_url": "http://pbs.twimg.com/profile_images/1082267908451921920/7WfOij2a_normal.jpg",
+				"profile_image_url_https": "https://pbs.twimg.com/profile_images/1082267908451921920/7WfOij2a_normal.jpg",
+				"profile_banner_url": "https://pbs.twimg.com/profile_banners/156269867/1557381202",
+				"profile_link_color": "1B95E0",
+				"profile_sidebar_border_color": "FFFFFF",
+				"profile_sidebar_fill_color": "1C1C1C",
+				"profile_text_color": "5C91B9",
+				"profile_use_background_image": false,
+				"has_extended_profile": true,
+				"default_profile": false,
+				"default_profile_image": false,
+				"following": false,
+				"follow_request_sent": false,
+				"notifications": false,
+				"translator_type": "none"
+			},
+			"geo": null,
+			"coordinates": null,
+			"place": null,
+			"contributors": null,
+			"is_quote_status": false,
+			"retweet_count": 0,
+			"favorite_count": 0,
+			"favorited": false,
+			"retweeted": false,
+			"possibly_sensitive": false,
+			"lang": "ja"
+		},
+		{
+			"created_at": "Fri May 22 12:00:06 +0000 2020",
+			"id": 1263801809803579392,
+			"id_str": "1263801809803579392",
+			"text": "https://t.co/4rYO0A1Re3\nPage Builder Cards Buy 2 Decks and get Free Shipping! \n#ux #graphics #designer #template\u2026 https://t.co/QdjLwNLn9t",
+			"truncated": true,
+			"entities": {
+				"hashtags": [
+					{
+						"text": "ux",
+						"indices": [79, 82]
+					},
+					{
+						"text": "graphics",
+						"indices": [83, 92]
+					},
+					{
+						"text": "designer",
+						"indices": [93, 102]
+					},
+					{
+						"text": "template",
+						"indices": [103, 112]
+					}
+				],
+				"symbols": [],
+				"user_mentions": [],
+				"urls": [
+					{
+						"url": "https://t.co/4rYO0A1Re3",
+						"expanded_url": "https://goo.gl/9nRuzV",
+						"display_url": "goo.gl/9nRuzV",
+						"indices": [0, 23]
+					},
+					{
+						"url": "https://t.co/QdjLwNLn9t",
+						"expanded_url": "https://twitter.com/i/web/status/1263801809803579392",
+						"display_url": "twitter.com/i/web/status/1\u2026",
+						"indices": [114, 137]
+					}
+				]
+			},
+			"metadata": {
+				"iso_language_code": "en",
+				"result_type": "recent"
+			},
+			"source": "\u003ca href=\"https://twittimer.com\" rel=\"nofollow\"\u003eTwittimer\u003c/a\u003e",
+			"in_reply_to_status_id": null,
+			"in_reply_to_status_id_str": null,
+			"in_reply_to_user_id": null,
+			"in_reply_to_user_id_str": null,
+			"in_reply_to_screen_name": null,
+			"user": {
+				"id": 3327163535,
+				"id_str": "3327163535",
+				"name": "UX Flowcharts",
+				"screen_name": "UX_Flows",
+				"location": "Europe",
+				"description": "UX Flowchart Cards, Page Builder Cards and Digital Tools for UX and UI Planning #UX #UI #UXCards #PageBuilder #Wireframes #WordPress #WebDesign",
+				"url": "https://t.co/QHdf4Ruksu",
+				"entities": {
+					"url": {
+						"urls": [
+							{
+								"url": "https://t.co/QHdf4Ruksu",
+								"expanded_url": "http://www.uxflowcharts.com",
+								"display_url": "uxflowcharts.com",
+								"indices": [0, 23]
+							}
+						]
+					},
+					"description": {
+						"urls": []
+					}
+				},
+				"protected": false,
+				"followers_count": 3298,
+				"friends_count": 95,
+				"listed_count": 797,
+				"created_at": "Mon Jun 15 15:11:41 +0000 2015",
+				"favourites_count": 13649,
+				"utc_offset": null,
+				"time_zone": null,
+				"geo_enabled": false,
+				"verified": false,
+				"statuses_count": 36978,
+				"lang": null,
+				"contributors_enabled": false,
+				"is_translator": false,
+				"is_translation_enabled": true,
+				"profile_background_color": "000000",
+				"profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+				"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+				"profile_background_tile": false,
+				"profile_image_url": "http://pbs.twimg.com/profile_images/610487701423456256/RGhqM47I_normal.png",
+				"profile_image_url_https": "https://pbs.twimg.com/profile_images/610487701423456256/RGhqM47I_normal.png",
+				"profile_banner_url": "https://pbs.twimg.com/profile_banners/3327163535/1583859620",
+				"profile_link_color": "1B95E0",
+				"profile_sidebar_border_color": "000000",
+				"profile_sidebar_fill_color": "000000",
+				"profile_text_color": "000000",
+				"profile_use_background_image": false,
+				"has_extended_profile": false,
+				"default_profile": false,
+				"default_profile_image": false,
+				"following": false,
+				"follow_request_sent": false,
+				"notifications": false,
+				"translator_type": "none"
+			},
+			"geo": null,
+			"coordinates": null,
+			"place": null,
+			"contributors": null,
+			"is_quote_status": false,
+			"retweet_count": 0,
+			"favorite_count": 0,
+			"favorited": false,
+			"retweeted": false,
+			"possibly_sensitive": false,
+			"lang": "en"
+		},
+		{
+			"created_at": "Fri May 22 11:58:37 +0000 2020",
+			"id": 1263801437907308546,
+			"id_str": "1263801437907308546",
+			"text": "RT @FerdiCildiz: Kanal\u0131mdaki son @figmadesign dersimde renk ve yaz\u0131 stillerini e bu y\u00f6ntemle nas\u0131l @Medium aray\u00fcz\u00fc tasarlan\u0131r onu anlatt\u0131\u2026",
+			"truncated": false,
+			"entities": {
+				"hashtags": [],
+				"symbols": [],
+				"user_mentions": [
+					{
+						"screen_name": "FerdiCildiz",
+						"name": "Ferdi \u00c7\u0131ld\u0131z",
+						"id": 48268327,
+						"id_str": "48268327",
+						"indices": [3, 15]
+					},
+					{
+						"screen_name": "figmadesign",
+						"name": "Figma",
+						"id": 3181020308,
+						"id_str": "3181020308",
+						"indices": [33, 45]
+					},
+					{
+						"screen_name": "Medium",
+						"name": "Medium",
+						"id": 571202103,
+						"id_str": "571202103",
+						"indices": [100, 107]
+					}
+				],
+				"urls": []
+			},
+			"metadata": {
+				"result_type": "recent",
+				"iso_language_code": "tr"
+			},
+			"source": "\u003ca href=\"https://mobile.twitter.com\" rel=\"nofollow\"\u003eTwitter Web App\u003c/a\u003e",
+			"in_reply_to_status_id": null,
+			"in_reply_to_status_id_str": null,
+			"in_reply_to_user_id": null,
+			"in_reply_to_user_id_str": null,
+			"in_reply_to_screen_name": null,
+			"user": {
+				"id": 1203471762,
+				"id_str": "1203471762",
+				"name": "Arda K\u0131l\u0131\u00e7da\u011f\u0131",
+				"screen_name": "ardadev",
+				"location": "Istanbul, Turkey",
+				"description": "Dev. Team Lead @hobium, ex- @phpfusion Management, author, @RPiTR founder, PHP, JavaScript, GNU/Linux, RPi lover. Gamer. Tweets in TR/EN, and opinions are mine.",
+				"url": "https://t.co/j3dUXT83Lv",
+				"entities": {
+					"url": {
+						"urls": [
+							{
+								"url": "https://t.co/j3dUXT83Lv",
+								"expanded_url": "https://arda.pw",
+								"display_url": "arda.pw",
+								"indices": [0, 23]
+							}
+						]
+					},
+					"description": {
+						"urls": []
+					}
+				},
+				"protected": false,
+				"followers_count": 1926,
+				"friends_count": 1081,
+				"listed_count": 86,
+				"created_at": "Thu Feb 21 08:42:51 +0000 2013",
+				"favourites_count": 5849,
+				"utc_offset": null,
+				"time_zone": null,
+				"geo_enabled": true,
+				"verified": false,
+				"statuses_count": 8735,
+				"lang": null,
+				"contributors_enabled": false,
+				"is_translator": false,
+				"is_translation_enabled": false,
+				"profile_background_color": "1A1B1F",
+				"profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif",
+				"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif",
+				"profile_background_tile": false,
+				"profile_image_url": "http://pbs.twimg.com/profile_images/3286286879/5315f7b6ecb24bbca5847f32a4ab45b3_normal.jpeg",
+				"profile_image_url_https": "https://pbs.twimg.com/profile_images/3286286879/5315f7b6ecb24bbca5847f32a4ab45b3_normal.jpeg",
+				"profile_banner_url": "https://pbs.twimg.com/profile_banners/1203471762/1398337728",
+				"profile_link_color": "2FC2EF",
+				"profile_sidebar_border_color": "181A1E",
+				"profile_sidebar_fill_color": "252429",
+				"profile_text_color": "666666",
+				"profile_use_background_image": true,
+				"has_extended_profile": true,
+				"default_profile": false,
+				"default_profile_image": false,
+				"following": false,
+				"follow_request_sent": false,
+				"notifications": false,
+				"translator_type": "regular"
+			},
+			"geo": null,
+			"coordinates": null,
+			"place": null,
+			"contributors": null,
+			"retweeted_status": {
+				"created_at": "Fri May 22 10:59:16 +0000 2020",
+				"id": 1263786498937229315,
+				"id_str": "1263786498937229315",
+				"text": "Kanal\u0131mdaki son @figmadesign dersimde renk ve yaz\u0131 stillerini e bu y\u00f6ntemle nas\u0131l @Medium aray\u00fcz\u00fc tasarlan\u0131r onu\u2026 https://t.co/tCFJMvFfka",
+				"truncated": true,
+				"entities": {
+					"hashtags": [],
+					"symbols": [],
+					"user_mentions": [
+						{
+							"screen_name": "figmadesign",
+							"name": "Figma",
+							"id": 3181020308,
+							"id_str": "3181020308",
+							"indices": [16, 28]
+						},
+						{
+							"screen_name": "Medium",
+							"name": "Medium",
+							"id": 571202103,
+							"id_str": "571202103",
+							"indices": [83, 90]
+						}
+					],
+					"urls": [
+						{
+							"url": "https://t.co/tCFJMvFfka",
+							"expanded_url": "https://twitter.com/i/web/status/1263786498937229315",
+							"display_url": "twitter.com/i/web/status/1\u2026",
+							"indices": [116, 139]
+						}
+					]
+				},
+				"metadata": {
+					"result_type": "recent",
+					"iso_language_code": "tr"
+				},
+				"source": "\u003ca href=\"https://mobile.twitter.com\" rel=\"nofollow\"\u003eTwitter Web App\u003c/a\u003e",
+				"in_reply_to_status_id": null,
+				"in_reply_to_status_id_str": null,
+				"in_reply_to_user_id": null,
+				"in_reply_to_user_id_str": null,
+				"in_reply_to_screen_name": null,
+				"user": {
+					"id": 48268327,
+					"id_str": "48268327",
+					"name": "Ferdi \u00c7\u0131ld\u0131z",
+					"screen_name": "FerdiCildiz",
+					"location": "Istanbul",
+					"description": "UI/UX Designer, Art Director\nhttps://t.co/IH3XS9GXaG",
+					"url": "https://t.co/mrPTx8ucpb",
+					"entities": {
+						"url": {
+							"urls": [
+								{
+									"url": "https://t.co/mrPTx8ucpb",
+									"expanded_url": "http://youtube.com/FerdiCildizUX",
+									"display_url": "youtube.com/FerdiCildizUX",
+									"indices": [0, 23]
+								}
+							]
+						},
+						"description": {
+							"urls": [
+								{
+									"url": "https://t.co/IH3XS9GXaG",
+									"expanded_url": "http://www.ferdicildiz.com",
+									"display_url": "ferdicildiz.com",
+									"indices": [29, 52]
+								}
+							]
+						}
+					},
+					"protected": false,
+					"followers_count": 612,
+					"friends_count": 590,
+					"listed_count": 27,
+					"created_at": "Thu Jun 18 06:22:45 +0000 2009",
+					"favourites_count": 3062,
+					"utc_offset": null,
+					"time_zone": null,
+					"geo_enabled": true,
+					"verified": false,
+					"statuses_count": 684,
+					"lang": null,
+					"contributors_enabled": false,
+					"is_translator": false,
+					"is_translation_enabled": false,
+					"profile_background_color": "000000",
+					"profile_background_image_url": "http://abs.twimg.com/images/themes/theme14/bg.gif",
+					"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme14/bg.gif",
+					"profile_background_tile": false,
+					"profile_image_url": "http://pbs.twimg.com/profile_images/1258401052631666688/4bQG0KD0_normal.jpg",
+					"profile_image_url_https": "https://pbs.twimg.com/profile_images/1258401052631666688/4bQG0KD0_normal.jpg",
+					"profile_banner_url": "https://pbs.twimg.com/profile_banners/48268327/1587513513",
+					"profile_link_color": "1B95E0",
+					"profile_sidebar_border_color": "FFFFFF",
+					"profile_sidebar_fill_color": "CCCCCC",
+					"profile_text_color": "333333",
+					"profile_use_background_image": true,
+					"has_extended_profile": false,
+					"default_profile": false,
+					"default_profile_image": false,
+					"following": false,
+					"follow_request_sent": false,
+					"notifications": false,
+					"translator_type": "regular"
+				},
+				"geo": null,
+				"coordinates": null,
+				"place": null,
+				"contributors": null,
+				"is_quote_status": false,
+				"retweet_count": 1,
+				"favorite_count": 2,
+				"favorited": false,
+				"retweeted": false,
+				"possibly_sensitive": false,
+				"lang": "tr"
+			},
+			"is_quote_status": false,
+			"retweet_count": 1,
+			"favorite_count": 0,
+			"favorited": false,
+			"retweeted": false,
+			"possibly_sensitive": false,
+			"lang": "tr"
+		},
+		{
+			"created_at": "Fri May 22 11:58:25 +0000 2020",
+			"id": 1263801387550294016,
+			"id_str": "1263801387550294016",
+			"text": "\u201cEvery $$ that we spend on IT in this new normal has to drive #productivity. It has to make work flow smoothly and\u2026 https://t.co/SU9TWh4aum",
+			"truncated": true,
+			"entities": {
+				"hashtags": [
+					{
+						"text": "productivity",
+						"indices": [62, 75]
+					}
+				],
+				"symbols": [],
+				"user_mentions": [],
+				"urls": [
+					{
+						"url": "https://t.co/SU9TWh4aum",
+						"expanded_url": "https://twitter.com/i/web/status/1263801387550294016",
+						"display_url": "twitter.com/i/web/status/1\u2026",
+						"indices": [116, 139]
+					}
+				]
+			},
+			"metadata": {
+				"iso_language_code": "en",
+				"result_type": "recent"
+			},
+			"source": "\u003ca href=\"http://dynamicsignal.com/\" rel=\"nofollow\"\u003eDynamic Signal\u003c/a\u003e",
+			"in_reply_to_status_id": null,
+			"in_reply_to_status_id_str": null,
+			"in_reply_to_user_id": null,
+			"in_reply_to_user_id_str": null,
+			"in_reply_to_screen_name": null,
+			"user": {
+				"id": 1194295408102641664,
+				"id_str": "1194295408102641664",
+				"name": "DBJknowsIT",
+				"screen_name": "DbJsales",
+				"location": "Lincolnshire, Illinois",
+				"description": "Corporate Account Manager at CDW providing IT Solutions and Services to great companies in Nebraska and Iowa.",
+				"url": "https://t.co/ALLYlyymqG",
+				"entities": {
+					"url": {
+						"urls": [
+							{
+								"url": "https://t.co/ALLYlyymqG",
+								"expanded_url": "http://www.cdw.com",
+								"display_url": "cdw.com",
+								"indices": [0, 23]
+							}
+						]
+					},
+					"description": {
+						"urls": []
+					}
+				},
+				"protected": false,
+				"followers_count": 26,
+				"friends_count": 424,
+				"listed_count": 0,
+				"created_at": "Tue Nov 12 16:46:38 +0000 2019",
+				"favourites_count": 234,
+				"utc_offset": null,
+				"time_zone": null,
+				"geo_enabled": false,
+				"verified": false,
+				"statuses_count": 632,
+				"lang": null,
+				"contributors_enabled": false,
+				"is_translator": false,
+				"is_translation_enabled": false,
+				"profile_background_color": "F5F8FA",
+				"profile_background_image_url": null,
+				"profile_background_image_url_https": null,
+				"profile_background_tile": false,
+				"profile_image_url": "http://pbs.twimg.com/profile_images/1194295659257565190/f060x0TY_normal.jpg",
+				"profile_image_url_https": "https://pbs.twimg.com/profile_images/1194295659257565190/f060x0TY_normal.jpg",
+				"profile_banner_url": "https://pbs.twimg.com/profile_banners/1194295408102641664/1575480506",
+				"profile_link_color": "1DA1F2",
+				"profile_sidebar_border_color": "C0DEED",
+				"profile_sidebar_fill_color": "DDEEF6",
+				"profile_text_color": "333333",
+				"profile_use_background_image": true,
+				"has_extended_profile": true,
+				"default_profile": true,
+				"default_profile_image": false,
+				"following": false,
+				"follow_request_sent": false,
+				"notifications": false,
+				"translator_type": "none"
+			},
+			"geo": null,
+			"coordinates": null,
+			"place": null,
+			"contributors": null,
+			"is_quote_status": false,
+			"retweet_count": 0,
+			"favorite_count": 0,
+			"favorited": false,
+			"retweeted": false,
+			"possibly_sensitive": false,
+			"lang": "en"
+		},
+		{
+			"created_at": "Fri May 22 11:58:15 +0000 2020",
+			"id": 1263801344793751554,
+			"id_str": "1263801344793751554",
+			"text": "#UXH2020 Still want to attend #UXHealthcare Amsterdam online? Limited discounted tickets available. \n\n50% Discount\u2026 https://t.co/uRcygZmzbI",
+			"truncated": true,
+			"entities": {
+				"hashtags": [
+					{
+						"text": "UXH2020",
+						"indices": [0, 8]
+					},
+					{
+						"text": "UXHealthcare",
+						"indices": [30, 43]
+					}
+				],
+				"symbols": [],
+				"user_mentions": [],
+				"urls": [
+					{
+						"url": "https://t.co/uRcygZmzbI",
+						"expanded_url": "https://twitter.com/i/web/status/1263801344793751554",
+						"display_url": "twitter.com/i/web/status/1\u2026",
+						"indices": [116, 139]
+					}
+				]
+			},
+			"metadata": {
+				"iso_language_code": "en",
+				"result_type": "recent"
+			},
+			"source": "\u003ca href=\"https://mobile.twitter.com\" rel=\"nofollow\"\u003eTwitter Web App\u003c/a\u003e",
+			"in_reply_to_status_id": null,
+			"in_reply_to_status_id_str": null,
+			"in_reply_to_user_id": null,
+			"in_reply_to_user_id_str": null,
+			"in_reply_to_screen_name": null,
+			"user": {
+				"id": 739528959436673024,
+				"id_str": "739528959436673024",
+				"name": "UX Healthcare",
+				"screen_name": "UX_Healthcare",
+				"location": "London, Amsterdam, Frankfurt",
+				"description": "With UX Healthcare we aim to make a difference, because better design is needed in the healthcare industry globally. \n\ud83d\udce9 info@uxdhealthcare.com",
+				"url": "https://t.co/QVZ5C4kyhg",
+				"entities": {
+					"url": {
+						"urls": [
+							{
+								"url": "https://t.co/QVZ5C4kyhg",
+								"expanded_url": "http://www.uxdhealthcare.com",
+								"display_url": "uxdhealthcare.com",
+								"indices": [0, 23]
+							}
+						]
+					},
+					"description": {
+						"urls": []
+					}
+				},
+				"protected": false,
+				"followers_count": 730,
+				"friends_count": 414,
+				"listed_count": 39,
+				"created_at": "Sun Jun 05 18:46:58 +0000 2016",
+				"favourites_count": 2634,
+				"utc_offset": null,
+				"time_zone": null,
+				"geo_enabled": false,
+				"verified": false,
+				"statuses_count": 1357,
+				"lang": null,
+				"contributors_enabled": false,
+				"is_translator": false,
+				"is_translation_enabled": false,
+				"profile_background_color": "000000",
+				"profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+				"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+				"profile_background_tile": false,
+				"profile_image_url": "http://pbs.twimg.com/profile_images/1164896091059425281/2PFP1pAN_normal.jpg",
+				"profile_image_url_https": "https://pbs.twimg.com/profile_images/1164896091059425281/2PFP1pAN_normal.jpg",
+				"profile_banner_url": "https://pbs.twimg.com/profile_banners/739528959436673024/1587401950",
+				"profile_link_color": "19CF86",
+				"profile_sidebar_border_color": "000000",
+				"profile_sidebar_fill_color": "000000",
+				"profile_text_color": "000000",
+				"profile_use_background_image": false,
+				"has_extended_profile": false,
+				"default_profile": false,
+				"default_profile_image": false,
+				"following": false,
+				"follow_request_sent": false,
+				"notifications": false,
+				"translator_type": "none"
+			},
+			"geo": null,
+			"coordinates": null,
+			"place": null,
+			"contributors": null,
+			"is_quote_status": false,
+			"retweet_count": 0,
+			"favorite_count": 0,
+			"favorited": false,
+			"retweeted": false,
+			"possibly_sensitive": false,
+			"lang": "en"
+		},
+		{
+			"created_at": "Fri May 22 11:58:07 +0000 2020",
+			"id": 1263801311469776896,
+			"id_str": "1263801311469776896",
+			"text": "#GoodDesign can benefit in so many ways.\n.\n.\n#DesignQuotes #ValueOfGoodDesign #UserExperience #NitrousDesign\u2026 https://t.co/G4bn2dnuKs",
+			"truncated": true,
+			"entities": {
+				"hashtags": [
+					{
+						"text": "GoodDesign",
+						"indices": [0, 11]
+					},
+					{
+						"text": "DesignQuotes",
+						"indices": [45, 58]
+					},
+					{
+						"text": "ValueOfGoodDesign",
+						"indices": [59, 77]
+					},
+					{
+						"text": "UserExperience",
+						"indices": [78, 93]
+					},
+					{
+						"text": "NitrousDesign",
+						"indices": [94, 108]
+					}
+				],
+				"symbols": [],
+				"user_mentions": [],
+				"urls": [
+					{
+						"url": "https://t.co/G4bn2dnuKs",
+						"expanded_url": "https://twitter.com/i/web/status/1263801311469776896",
+						"display_url": "twitter.com/i/web/status/1\u2026",
+						"indices": [110, 133]
+					}
+				]
+			},
+			"metadata": {
+				"iso_language_code": "en",
+				"result_type": "recent"
+			},
+			"source": "\u003ca href=\"https://mobile.twitter.com\" rel=\"nofollow\"\u003eTwitter Web App\u003c/a\u003e",
+			"in_reply_to_status_id": null,
+			"in_reply_to_status_id_str": null,
+			"in_reply_to_user_id": null,
+			"in_reply_to_user_id_str": null,
+			"in_reply_to_screen_name": null,
+			"user": {
+				"id": 1227197282119901189,
+				"id_str": "1227197282119901189",
+				"name": "Nitrous - UX Design Studio",
+				"screen_name": "nitrous_design",
+				"location": "Pune",
+				"description": "We know the value of a good #UserExperience. Do You? #NitrousDesign #UX #UI",
+				"url": "https://t.co/RKNAuLezSE",
+				"entities": {
+					"url": {
+						"urls": [
+							{
+								"url": "https://t.co/RKNAuLezSE",
+								"expanded_url": "https://www.nitrousdesign.com",
+								"display_url": "nitrousdesign.com",
+								"indices": [0, 23]
+							}
+						]
+					},
+					"description": {
+						"urls": []
+					}
+				},
+				"protected": false,
+				"followers_count": 2,
+				"friends_count": 15,
+				"listed_count": 0,
+				"created_at": "Tue Feb 11 11:47:12 +0000 2020",
+				"favourites_count": 17,
+				"utc_offset": null,
+				"time_zone": null,
+				"geo_enabled": false,
+				"verified": false,
+				"statuses_count": 19,
+				"lang": null,
+				"contributors_enabled": false,
+				"is_translator": false,
+				"is_translation_enabled": false,
+				"profile_background_color": "F5F8FA",
+				"profile_background_image_url": null,
+				"profile_background_image_url_https": null,
+				"profile_background_tile": false,
+				"profile_image_url": "http://pbs.twimg.com/profile_images/1230452841883394053/VnT4ldix_normal.jpg",
+				"profile_image_url_https": "https://pbs.twimg.com/profile_images/1230452841883394053/VnT4ldix_normal.jpg",
+				"profile_banner_url": "https://pbs.twimg.com/profile_banners/1227197282119901189/1582198293",
+				"profile_link_color": "1DA1F2",
+				"profile_sidebar_border_color": "C0DEED",
+				"profile_sidebar_fill_color": "DDEEF6",
+				"profile_text_color": "333333",
+				"profile_use_background_image": true,
+				"has_extended_profile": false,
+				"default_profile": true,
+				"default_profile_image": false,
+				"following": false,
+				"follow_request_sent": false,
+				"notifications": false,
+				"translator_type": "none"
+			},
+			"geo": null,
+			"coordinates": null,
+			"place": null,
+			"contributors": null,
+			"is_quote_status": false,
+			"retweet_count": 0,
+			"favorite_count": 0,
+			"favorited": false,
+			"retweeted": false,
+			"possibly_sensitive": false,
+			"lang": "en"
+		},
+		{
+			"created_at": "Fri May 22 11:57:31 +0000 2020",
+			"id": 1263801160894255104,
+			"id_str": "1263801160894255104",
+			"text": "RT: @la_fernandez: \"Marketing aspects to consider as a UX designer\" #ux #uxdesign https://t.co/QRfh8o2nvW",
+			"truncated": false,
+			"entities": {
+				"hashtags": [
+					{
+						"text": "ux",
+						"indices": [68, 71]
+					},
+					{
+						"text": "uxdesign",
+						"indices": [72, 81]
+					}
+				],
+				"symbols": [],
+				"user_mentions": [
+					{
+						"screen_name": "la_fernandez",
+						"name": "Alberto Fernandez",
+						"id": 118157757,
+						"id_str": "118157757",
+						"indices": [4, 17]
+					}
+				],
+				"urls": [
+					{
+						"url": "https://t.co/QRfh8o2nvW",
+						"expanded_url": "http://dlvr.it/RX8RzZ",
+						"display_url": "dlvr.it/RX8RzZ",
+						"indices": [82, 105]
+					}
+				]
+			},
+			"metadata": {
+				"iso_language_code": "en",
+				"result_type": "recent"
+			},
+			"source": "\u003ca href=\"https://dlvrit.com/\" rel=\"nofollow\"\u003edlvr.it\u003c/a\u003e",
+			"in_reply_to_status_id": null,
+			"in_reply_to_status_id_str": null,
+			"in_reply_to_user_id": null,
+			"in_reply_to_user_id_str": null,
+			"in_reply_to_screen_name": null,
+			"user": {
+				"id": 1233154440280051715,
+				"id_str": "1233154440280051715",
+				"name": "FreelanceBar.me",
+				"screen_name": "FreelancebarM",
+				"location": "",
+				"description": "FreelanceBar is open 24h. Resource, tutorial and beer for all freelancers. Cheers!!",
+				"url": "https://t.co/hNZPWJKYz9",
+				"entities": {
+					"url": {
+						"urls": [
+							{
+								"url": "https://t.co/hNZPWJKYz9",
+								"expanded_url": "https://amazon.com/dp/B087Z2L7Y1/ref=cm_sw_r_tw_dp_U_x_mQfREbNA39GSD",
+								"display_url": "amazon.com/dp/B087Z2L7Y1/\u2026",
+								"indices": [0, 23]
+							}
+						]
+					},
+					"description": {
+						"urls": []
+					}
+				},
+				"protected": false,
+				"followers_count": 258,
+				"friends_count": 987,
+				"listed_count": 9,
+				"created_at": "Thu Feb 27 22:19:10 +0000 2020",
+				"favourites_count": 355,
+				"utc_offset": null,
+				"time_zone": null,
+				"geo_enabled": false,
+				"verified": false,
+				"statuses_count": 6246,
+				"lang": null,
+				"contributors_enabled": false,
+				"is_translator": false,
+				"is_translation_enabled": false,
+				"profile_background_color": "F5F8FA",
+				"profile_background_image_url": null,
+				"profile_background_image_url_https": null,
+				"profile_background_tile": false,
+				"profile_image_url": "http://pbs.twimg.com/profile_images/1233155237353000961/wfuXBNV4_normal.jpg",
+				"profile_image_url_https": "https://pbs.twimg.com/profile_images/1233155237353000961/wfuXBNV4_normal.jpg",
+				"profile_banner_url": "https://pbs.twimg.com/profile_banners/1233154440280051715/1582843385",
+				"profile_link_color": "1DA1F2",
+				"profile_sidebar_border_color": "C0DEED",
+				"profile_sidebar_fill_color": "DDEEF6",
+				"profile_text_color": "333333",
+				"profile_use_background_image": true,
+				"has_extended_profile": false,
+				"default_profile": true,
+				"default_profile_image": false,
+				"following": false,
+				"follow_request_sent": false,
+				"notifications": false,
+				"translator_type": "none"
+			},
+			"geo": null,
+			"coordinates": null,
+			"place": null,
+			"contributors": null,
+			"is_quote_status": false,
+			"retweet_count": 0,
+			"favorite_count": 0,
+			"favorited": false,
+			"retweeted": false,
+			"possibly_sensitive": false,
+			"lang": "en"
+		},
+		{
+			"created_at": "Fri May 22 11:57:06 +0000 2020",
+			"id": 1263801056837816321,
+			"id_str": "1263801056837816321",
+			"text": "RT: @GytisCeglys: I look forward to it. Thanks, @TheIntraClub for having me. #volunteering #ux #uxdesign\u2026 https://t.co/fQfVua32d1",
+			"truncated": true,
+			"entities": {
+				"hashtags": [
+					{
+						"text": "volunteering",
+						"indices": [77, 90]
+					},
+					{
+						"text": "ux",
+						"indices": [91, 94]
+					},
+					{
+						"text": "uxdesign",
+						"indices": [95, 104]
+					}
+				],
+				"symbols": [],
+				"user_mentions": [
+					{
+						"screen_name": "GytisCeglys",
+						"name": "\uff27\uff39\uff34\uff29\uff33 \uff23\uff25\uff27\uff2c\uff39\uff33",
+						"id": 779198229128867841,
+						"id_str": "779198229128867841",
+						"indices": [4, 16]
+					},
+					{
+						"screen_name": "TheIntraClub",
+						"name": "The Intrapreneurs Club",
+						"id": 1152165797231509506,
+						"id_str": "1152165797231509506",
+						"indices": [48, 61]
+					}
+				],
+				"urls": [
+					{
+						"url": "https://t.co/fQfVua32d1",
+						"expanded_url": "https://twitter.com/i/web/status/1263801056837816321",
+						"display_url": "twitter.com/i/web/status/1\u2026",
+						"indices": [106, 129]
+					}
+				]
+			},
+			"metadata": {
+				"iso_language_code": "en",
+				"result_type": "recent"
+			},
+			"source": "\u003ca href=\"https://dlvrit.com/\" rel=\"nofollow\"\u003edlvr.it\u003c/a\u003e",
+			"in_reply_to_status_id": null,
+			"in_reply_to_status_id_str": null,
+			"in_reply_to_user_id": null,
+			"in_reply_to_user_id_str": null,
+			"in_reply_to_screen_name": null,
+			"user": {
+				"id": 1233154440280051715,
+				"id_str": "1233154440280051715",
+				"name": "FreelanceBar.me",
+				"screen_name": "FreelancebarM",
+				"location": "",
+				"description": "FreelanceBar is open 24h. Resource, tutorial and beer for all freelancers. Cheers!!",
+				"url": "https://t.co/hNZPWJKYz9",
+				"entities": {
+					"url": {
+						"urls": [
+							{
+								"url": "https://t.co/hNZPWJKYz9",
+								"expanded_url": "https://amazon.com/dp/B087Z2L7Y1/ref=cm_sw_r_tw_dp_U_x_mQfREbNA39GSD",
+								"display_url": "amazon.com/dp/B087Z2L7Y1/\u2026",
+								"indices": [0, 23]
+							}
+						]
+					},
+					"description": {
+						"urls": []
+					}
+				},
+				"protected": false,
+				"followers_count": 258,
+				"friends_count": 987,
+				"listed_count": 9,
+				"created_at": "Thu Feb 27 22:19:10 +0000 2020",
+				"favourites_count": 355,
+				"utc_offset": null,
+				"time_zone": null,
+				"geo_enabled": false,
+				"verified": false,
+				"statuses_count": 6246,
+				"lang": null,
+				"contributors_enabled": false,
+				"is_translator": false,
+				"is_translation_enabled": false,
+				"profile_background_color": "F5F8FA",
+				"profile_background_image_url": null,
+				"profile_background_image_url_https": null,
+				"profile_background_tile": false,
+				"profile_image_url": "http://pbs.twimg.com/profile_images/1233155237353000961/wfuXBNV4_normal.jpg",
+				"profile_image_url_https": "https://pbs.twimg.com/profile_images/1233155237353000961/wfuXBNV4_normal.jpg",
+				"profile_banner_url": "https://pbs.twimg.com/profile_banners/1233154440280051715/1582843385",
+				"profile_link_color": "1DA1F2",
+				"profile_sidebar_border_color": "C0DEED",
+				"profile_sidebar_fill_color": "DDEEF6",
+				"profile_text_color": "333333",
+				"profile_use_background_image": true,
+				"has_extended_profile": false,
+				"default_profile": true,
+				"default_profile_image": false,
+				"following": false,
+				"follow_request_sent": false,
+				"notifications": false,
+				"translator_type": "none"
+			},
+			"geo": null,
+			"coordinates": null,
+			"place": null,
+			"contributors": null,
+			"is_quote_status": false,
+			"retweet_count": 0,
+			"favorite_count": 0,
+			"favorited": false,
+			"retweeted": false,
+			"possibly_sensitive": false,
+			"lang": "en"
+		},
+		{
+			"created_at": "Fri May 22 11:56:22 +0000 2020",
+			"id": 1263800870086549505,
+			"id_str": "1263800870086549505",
+			"text": "RT @ux_daily: \ud83d\udc4710 Soft Skills for UI & UX Designers with practical examples\nhttps://t.co/gMrFwTy9Rc\n#uxdesign #ux #designer https://t.co/yr\u2026",
+			"truncated": false,
+			"entities": {
+				"hashtags": [
+					{
+						"text": "uxdesign",
+						"indices": [104, 113]
+					},
+					{
+						"text": "ux",
+						"indices": [114, 117]
+					},
+					{
+						"text": "designer",
+						"indices": [118, 127]
+					}
+				],
+				"symbols": [],
+				"user_mentions": [
+					{
+						"screen_name": "ux_daily",
+						"name": "\u270f UX Examples",
+						"id": 1252334992677638145,
+						"id_str": "1252334992677638145",
+						"indices": [3, 12]
+					}
+				],
+				"urls": [
+					{
+						"url": "https://t.co/gMrFwTy9Rc",
+						"expanded_url": "https://buff.ly/2LlsHFR",
+						"display_url": "buff.ly/2LlsHFR",
+						"indices": [80, 103]
+					}
+				]
+			},
+			"metadata": {
+				"iso_language_code": "en",
+				"result_type": "recent"
+			},
+			"source": "\u003ca href=\"https://mobile.twitter.com\" rel=\"nofollow\"\u003eTwitter Web App\u003c/a\u003e",
+			"in_reply_to_status_id": null,
+			"in_reply_to_status_id_str": null,
+			"in_reply_to_user_id": null,
+			"in_reply_to_user_id_str": null,
+			"in_reply_to_screen_name": null,
+			"user": {
+				"id": 4397548043,
+				"id_str": "4397548043",
+				"name": "Juliette Bourgoin",
+				"screen_name": "Juliette_and_co",
+				"location": "",
+				"description": "Aime bien le design et l'exp\u00e9rience utilisateur\n-\nBehance https://t.co/cZyq0A95fu",
+				"url": "https://t.co/RcIPMmvJMl",
+				"entities": {
+					"url": {
+						"urls": [
+							{
+								"url": "https://t.co/RcIPMmvJMl",
+								"expanded_url": "http://www.juliettebourgoin.fr",
+								"display_url": "juliettebourgoin.fr",
+								"indices": [0, 23]
+							}
+						]
+					},
+					"description": {
+						"urls": [
+							{
+								"url": "https://t.co/cZyq0A95fu",
+								"expanded_url": "http://behance.net/juliettebob50f",
+								"display_url": "behance.net/juliettebob50f",
+								"indices": [58, 81]
+							}
+						]
+					}
+				},
+				"protected": false,
+				"followers_count": 77,
+				"friends_count": 935,
+				"listed_count": 0,
+				"created_at": "Sun Dec 06 20:37:37 +0000 2015",
+				"favourites_count": 3649,
+				"utc_offset": null,
+				"time_zone": null,
+				"geo_enabled": false,
+				"verified": false,
+				"statuses_count": 1855,
+				"lang": null,
+				"contributors_enabled": false,
+				"is_translator": false,
+				"is_translation_enabled": false,
+				"profile_background_color": "000000",
+				"profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+				"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+				"profile_background_tile": false,
+				"profile_image_url": "http://pbs.twimg.com/profile_images/1221134045507203072/t98kmelz_normal.jpg",
+				"profile_image_url_https": "https://pbs.twimg.com/profile_images/1221134045507203072/t98kmelz_normal.jpg",
+				"profile_banner_url": "https://pbs.twimg.com/profile_banners/4397548043/1580235669",
+				"profile_link_color": "1B95E0",
+				"profile_sidebar_border_color": "000000",
+				"profile_sidebar_fill_color": "000000",
+				"profile_text_color": "000000",
+				"profile_use_background_image": false,
+				"has_extended_profile": false,
+				"default_profile": false,
+				"default_profile_image": false,
+				"following": false,
+				"follow_request_sent": false,
+				"notifications": false,
+				"translator_type": "none"
+			},
+			"geo": null,
+			"coordinates": null,
+			"place": null,
+			"contributors": null,
+			"retweeted_status": {
+				"created_at": "Wed May 20 17:09:02 +0000 2020",
+				"id": 1263154781197078528,
+				"id_str": "1263154781197078528",
+				"text": "\ud83d\udc4710 Soft Skills for UI & UX Designers with practical examples\nhttps://t.co/gMrFwTy9Rc\n#uxdesign #ux #designer https://t.co/yrJPgq9EPH",
+				"truncated": false,
+				"entities": {
+					"hashtags": [
+						{
+							"text": "uxdesign",
+							"indices": [90, 99]
+						},
+						{
+							"text": "ux",
+							"indices": [100, 103]
+						},
+						{
+							"text": "designer",
+							"indices": [104, 113]
+						}
+					],
+					"symbols": [],
+					"user_mentions": [],
+					"urls": [
+						{
+							"url": "https://t.co/gMrFwTy9Rc",
+							"expanded_url": "https://buff.ly/2LlsHFR",
+							"display_url": "buff.ly/2LlsHFR",
+							"indices": [66, 89]
+						}
+					],
+					"media": [
+						{
+							"id": 1263154779750047744,
+							"id_str": "1263154779750047744",
+							"indices": [114, 137],
+							"media_url": "http://pbs.twimg.com/media/EYeglGdWoAAtzOo.jpg",
+							"media_url_https": "https://pbs.twimg.com/media/EYeglGdWoAAtzOo.jpg",
+							"url": "https://t.co/yrJPgq9EPH",
+							"display_url": "pic.twitter.com/yrJPgq9EPH",
+							"expanded_url": "https://twitter.com/ux_daily/status/1263154781197078528/photo/1",
+							"type": "photo",
+							"sizes": {
+								"small": {
+									"w": 680,
+									"h": 385,
+									"resize": "fit"
+								},
+								"large": {
+									"w": 1200,
+									"h": 680,
+									"resize": "fit"
+								},
+								"thumb": {
+									"w": 150,
+									"h": 150,
+									"resize": "crop"
+								},
+								"medium": {
+									"w": 1200,
+									"h": 680,
+									"resize": "fit"
+								}
+							}
+						}
+					]
+				},
+				"extended_entities": {
+					"media": [
+						{
+							"id": 1263154779750047744,
+							"id_str": "1263154779750047744",
+							"indices": [114, 137],
+							"media_url": "http://pbs.twimg.com/media/EYeglGdWoAAtzOo.jpg",
+							"media_url_https": "https://pbs.twimg.com/media/EYeglGdWoAAtzOo.jpg",
+							"url": "https://t.co/yrJPgq9EPH",
+							"display_url": "pic.twitter.com/yrJPgq9EPH",
+							"expanded_url": "https://twitter.com/ux_daily/status/1263154781197078528/photo/1",
+							"type": "photo",
+							"sizes": {
+								"small": {
+									"w": 680,
+									"h": 385,
+									"resize": "fit"
+								},
+								"large": {
+									"w": 1200,
+									"h": 680,
+									"resize": "fit"
+								},
+								"thumb": {
+									"w": 150,
+									"h": 150,
+									"resize": "crop"
+								},
+								"medium": {
+									"w": 1200,
+									"h": 680,
+									"resize": "fit"
+								}
+							}
+						}
+					]
+				},
+				"metadata": {
+					"iso_language_code": "en",
+					"result_type": "recent"
+				},
+				"source": "\u003ca href=\"https://buffer.com\" rel=\"nofollow\"\u003eBuffer\u003c/a\u003e",
+				"in_reply_to_status_id": null,
+				"in_reply_to_status_id_str": null,
+				"in_reply_to_user_id": null,
+				"in_reply_to_user_id_str": null,
+				"in_reply_to_screen_name": null,
+				"user": {
+					"id": 1252334992677638145,
+					"id_str": "1252334992677638145",
+					"name": "\u270f UX Examples",
+					"screen_name": "ux_daily",
+					"location": "Let's connect \ud83d\udc49",
+					"description": "Grow with the finest ux tips & tricks // curated by @samuelbriskar",
+					"url": "https://t.co/VkPlaYMWGi",
+					"entities": {
+						"url": {
+							"urls": [
+								{
+									"url": "https://t.co/VkPlaYMWGi",
+									"expanded_url": "https://www.linkedin.com/in/samuelbriskar/",
+									"display_url": "linkedin.com/in/samuelbrisk\u2026",
+									"indices": [0, 23]
+								}
+							]
+						},
+						"description": {
+							"urls": []
+						}
+					},
+					"protected": false,
+					"followers_count": 342,
+					"friends_count": 336,
+					"listed_count": 9,
+					"created_at": "Mon Apr 20 20:35:12 +0000 2020",
+					"favourites_count": 30,
+					"utc_offset": null,
+					"time_zone": null,
+					"geo_enabled": false,
+					"verified": false,
+					"statuses_count": 88,
+					"lang": null,
+					"contributors_enabled": false,
+					"is_translator": false,
+					"is_translation_enabled": false,
+					"profile_background_color": "F5F8FA",
+					"profile_background_image_url": null,
+					"profile_background_image_url_https": null,
+					"profile_background_tile": false,
+					"profile_image_url": "http://pbs.twimg.com/profile_images/1258436453631131648/R1REFC6H_normal.jpg",
+					"profile_image_url_https": "https://pbs.twimg.com/profile_images/1258436453631131648/R1REFC6H_normal.jpg",
+					"profile_banner_url": "https://pbs.twimg.com/profile_banners/1252334992677638145/1588870830",
+					"profile_link_color": "1DA1F2",
+					"profile_sidebar_border_color": "C0DEED",
+					"profile_sidebar_fill_color": "DDEEF6",
+					"profile_text_color": "333333",
+					"profile_use_background_image": true,
+					"has_extended_profile": false,
+					"default_profile": true,
+					"default_profile_image": false,
+					"following": false,
+					"follow_request_sent": false,
+					"notifications": false,
+					"translator_type": "none"
+				},
+				"geo": null,
+				"coordinates": null,
+				"place": null,
+				"contributors": null,
+				"is_quote_status": false,
+				"retweet_count": 2,
+				"favorite_count": 4,
+				"favorited": false,
+				"retweeted": false,
+				"possibly_sensitive": false,
+				"lang": "en"
+			},
+			"is_quote_status": false,
+			"retweet_count": 2,
+			"favorite_count": 0,
+			"favorited": false,
+			"retweeted": false,
+			"possibly_sensitive": false,
+			"lang": "en"
+		},
+		{
+			"created_at": "Fri May 22 11:54:12 +0000 2020",
+			"id": 1263800325586055169,
+			"id_str": "1263800325586055169",
+			"text": "RT @UX5ch: \u3042\u305923\u65e5\uff08\u571f\uff09\u3042\u30559\u664230\u5206\uff5e #\u307e\u308b\u3069\u308a \ud83d\udc4c\n\n#\u65c5\u3057\u3066\u3061\u3087\u3046\u306a\u3044 \u30d7\u30ec\u30a4\u30d0\u30c3\u30af\uff01\n\u3046\u307e\u3063\uff01\u8f9b\u3063\uff01\ud83d\udd25\u304a\u3044\u3057\u3044\u9eba\u7279\u96c6\ud83c\udf5c\n\n#\u5f97\u5831\u30a2\u30f3\u30b5\u30fc \u306f\u3001 #\u30cb\u30a4\u30ac\u30bf\u59c9\u3055\u3093 \u4eca\u4f55\u3057\u3066\u308b\uff1f\n\u30b3\u30ed\u30ca\u306b\u8ca0\u3051\u305a\u9811\u5f35\u3063\u3066\u3044\u307e\u3059\u203c\n\n#\u65b0\u6f5f #UX https://t.co/E\u2026",
+			"truncated": false,
+			"entities": {
+				"hashtags": [
+					{
+						"text": "\u307e\u308b\u3069\u308a",
+						"indices": [28, 33]
+					},
+					{
+						"text": "\u65c5\u3057\u3066\u3061\u3087\u3046\u306a\u3044",
+						"indices": [37, 46]
+					},
+					{
+						"text": "\u5f97\u5831\u30a2\u30f3\u30b5\u30fc",
+						"indices": [73, 80]
+					},
+					{
+						"text": "\u30cb\u30a4\u30ac\u30bf\u59c9\u3055\u3093",
+						"indices": [84, 92]
+					},
+					{
+						"text": "\u65b0\u6f5f",
+						"indices": [117, 120]
+					},
+					{
+						"text": "UX",
+						"indices": [121, 124]
+					}
+				],
+				"symbols": [],
+				"user_mentions": [
+					{
+						"screen_name": "UX5ch",
+						"name": "\u65b0\u6f5f\u30c6\u30ec\u30d321",
+						"id": 268596033,
+						"id_str": "268596033",
+						"indices": [3, 9]
+					}
+				],
+				"urls": []
+			},
+			"metadata": {
+				"iso_language_code": "ja",
+				"result_type": "recent"
+			},
+			"source": "\u003ca href=\"http://twitter.com/download/iphone\" rel=\"nofollow\"\u003eTwitter for iPhone\u003c/a\u003e",
+			"in_reply_to_status_id": null,
+			"in_reply_to_status_id_str": null,
+			"in_reply_to_user_id": null,
+			"in_reply_to_user_id_str": null,
+			"in_reply_to_screen_name": null,
+			"user": {
+				"id": 175957864,
+				"id_str": "175957864",
+				"name": "\u3070",
+				"screen_name": "you_i_dong",
+				"location": "\u9996\u90fd\u570f(\u65e5\u672c\u6d77\u5074w)",
+				"description": "SF\u3068\u6620\u753b\u3068\u6f2b\u753b\u3068\u65e5\u672c\u9152\u3068\u9152\u306f\u5fc5\u9808\uff01 \u597d\u304d\u306a\u4e8b\u3092\u307b\u3056\u3044\u3066\u307e\u3059\u304c\u3001\u672a\u3060\u4f7f\u3044\u65b9\u3059\u3089\u4e00\u90e8\u3057\u304b\u5224\u3063\u3066\u3044\u307e\u305b\u3093\u3002\u8a66\u884c\u932f\u8aa4\u4e2d\u3067\u3059\u306e\u3067\u3001\u4e0d\u4f5c\u6cd5\u7b49\u306f\u304a\u8a31\u3057\u304f\u3060\u3055\u3044\u3002 \u3068\u3001\u307b\u3056\u3044\u3066\u304b\u3089\u7d50\u69cb\u7d4c\u3061\u307e\u3057\u305f\u304c\u73fe\u72b6\u307b\u307c\u540c\u3058(\u54c0)\u4eba\u9593\u5b89\u6613\u306a\u65b9\u3078\u3068\u6d41\u3055\u308c\u3082\u306e\u3067\u3059(\u6bb4)\u5f15\u304d\u7d9a\u304d\u5fa1\u5bb9\u8d66\u306e\u7a0b\u5b9c\u3057\u304f\u304a\u9858\u3044\u3057\u307e\u3059\u3002 \u6700\u8fd1\u9b31\u9676\u3057\u3044\u30c4\u30a4\u30fc\u30c8\u5897\u3048\u3066\u307e\u3059\u304c\u66f4\u306b\u5fa1\u5bb9\u8d66\uff01",
+				"url": null,
+				"entities": {
+					"description": {
+						"urls": []
+					}
+				},
+				"protected": false,
+				"followers_count": 145,
+				"friends_count": 292,
+				"listed_count": 5,
+				"created_at": "Sun Aug 08 03:44:56 +0000 2010",
+				"favourites_count": 21083,
+				"utc_offset": null,
+				"time_zone": null,
+				"geo_enabled": false,
+				"verified": false,
+				"statuses_count": 53684,
+				"lang": null,
+				"contributors_enabled": false,
+				"is_translator": false,
+				"is_translation_enabled": false,
+				"profile_background_color": "000000",
+				"profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+				"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+				"profile_background_tile": false,
+				"profile_image_url": "http://pbs.twimg.com/profile_images/3287009274/8519a87215c4eed641ab3afdd061695e_normal.jpeg",
+				"profile_image_url_https": "https://pbs.twimg.com/profile_images/3287009274/8519a87215c4eed641ab3afdd061695e_normal.jpeg",
+				"profile_banner_url": "https://pbs.twimg.com/profile_banners/175957864/1360991100",
+				"profile_link_color": "981CEB",
+				"profile_sidebar_border_color": "000000",
+				"profile_sidebar_fill_color": "000000",
+				"profile_text_color": "000000",
+				"profile_use_background_image": false,
+				"has_extended_profile": false,
+				"default_profile": false,
+				"default_profile_image": false,
+				"following": false,
+				"follow_request_sent": false,
+				"notifications": false,
+				"translator_type": "none"
+			},
+			"geo": null,
+			"coordinates": null,
+			"place": null,
+			"contributors": null,
+			"retweeted_status": {
+				"created_at": "Fri May 22 09:25:02 +0000 2020",
+				"id": 1263762785030135809,
+				"id_str": "1263762785030135809",
+				"text": "\u3042\u305923\u65e5\uff08\u571f\uff09\u3042\u30559\u664230\u5206\uff5e #\u307e\u308b\u3069\u308a \ud83d\udc4c\n\n#\u65c5\u3057\u3066\u3061\u3087\u3046\u306a\u3044 \u30d7\u30ec\u30a4\u30d0\u30c3\u30af\uff01\n\u3046\u307e\u3063\uff01\u8f9b\u3063\uff01\ud83d\udd25\u304a\u3044\u3057\u3044\u9eba\u7279\u96c6\ud83c\udf5c\n\n#\u5f97\u5831\u30a2\u30f3\u30b5\u30fc \u306f\u3001 #\u30cb\u30a4\u30ac\u30bf\u59c9\u3055\u3093 \u4eca\u4f55\u3057\u3066\u308b\uff1f\n\u30b3\u30ed\u30ca\u306b\u8ca0\u3051\u305a\u9811\u5f35\u3063\u3066\u3044\u307e\u3059\u203c\n\n#\u65b0\u6f5f #UX https://t.co/EkJlcmmbts",
+				"truncated": false,
+				"entities": {
+					"hashtags": [
+						{
+							"text": "\u307e\u308b\u3069\u308a",
+							"indices": [17, 22]
+						},
+						{
+							"text": "\u65c5\u3057\u3066\u3061\u3087\u3046\u306a\u3044",
+							"indices": [26, 35]
+						},
+						{
+							"text": "\u5f97\u5831\u30a2\u30f3\u30b5\u30fc",
+							"indices": [62, 69]
+						},
+						{
+							"text": "\u30cb\u30a4\u30ac\u30bf\u59c9\u3055\u3093",
+							"indices": [73, 81]
+						},
+						{
+							"text": "\u65b0\u6f5f",
+							"indices": [106, 109]
+						},
+						{
+							"text": "UX",
+							"indices": [110, 113]
+						}
+					],
+					"symbols": [],
+					"user_mentions": [],
+					"urls": [],
+					"media": [
+						{
+							"id": 1263762557522767872,
+							"id_str": "1263762557522767872",
+							"indices": [114, 137],
+							"media_url": "http://pbs.twimg.com/media/EYnJWbGVcAABGb3.jpg",
+							"media_url_https": "https://pbs.twimg.com/media/EYnJWbGVcAABGb3.jpg",
+							"url": "https://t.co/EkJlcmmbts",
+							"display_url": "pic.twitter.com/EkJlcmmbts",
+							"expanded_url": "https://twitter.com/UX5ch/status/1263762785030135809/photo/1",
+							"type": "photo",
+							"sizes": {
+								"thumb": {
+									"w": 150,
+									"h": 150,
+									"resize": "crop"
+								},
+								"small": {
+									"w": 640,
+									"h": 360,
+									"resize": "fit"
+								},
+								"medium": {
+									"w": 640,
+									"h": 360,
+									"resize": "fit"
+								},
+								"large": {
+									"w": 640,
+									"h": 360,
+									"resize": "fit"
+								}
+							}
+						}
+					]
+				},
+				"extended_entities": {
+					"media": [
+						{
+							"id": 1263762557522767872,
+							"id_str": "1263762557522767872",
+							"indices": [114, 137],
+							"media_url": "http://pbs.twimg.com/media/EYnJWbGVcAABGb3.jpg",
+							"media_url_https": "https://pbs.twimg.com/media/EYnJWbGVcAABGb3.jpg",
+							"url": "https://t.co/EkJlcmmbts",
+							"display_url": "pic.twitter.com/EkJlcmmbts",
+							"expanded_url": "https://twitter.com/UX5ch/status/1263762785030135809/photo/1",
+							"type": "photo",
+							"sizes": {
+								"thumb": {
+									"w": 150,
+									"h": 150,
+									"resize": "crop"
+								},
+								"small": {
+									"w": 640,
+									"h": 360,
+									"resize": "fit"
+								},
+								"medium": {
+									"w": 640,
+									"h": 360,
+									"resize": "fit"
+								},
+								"large": {
+									"w": 640,
+									"h": 360,
+									"resize": "fit"
+								}
+							}
+						},
+						{
+							"id": 1263762587000336384,
+							"id_str": "1263762587000336384",
+							"indices": [114, 137],
+							"media_url": "http://pbs.twimg.com/media/EYnJYI6VcAAH6TV.jpg",
+							"media_url_https": "https://pbs.twimg.com/media/EYnJYI6VcAAH6TV.jpg",
+							"url": "https://t.co/EkJlcmmbts",
+							"display_url": "pic.twitter.com/EkJlcmmbts",
+							"expanded_url": "https://twitter.com/UX5ch/status/1263762785030135809/photo/1",
+							"type": "photo",
+							"sizes": {
+								"small": {
+									"w": 640,
+									"h": 360,
+									"resize": "fit"
+								},
+								"thumb": {
+									"w": 150,
+									"h": 150,
+									"resize": "crop"
+								},
+								"large": {
+									"w": 640,
+									"h": 360,
+									"resize": "fit"
+								},
+								"medium": {
+									"w": 640,
+									"h": 360,
+									"resize": "fit"
+								}
+							}
+						}
+					]
+				},
+				"metadata": {
+					"iso_language_code": "ja",
+					"result_type": "recent"
+				},
+				"source": "\u003ca href=\"http://twitter.com\" rel=\"nofollow\"\u003eTwitter Web Client\u003c/a\u003e",
+				"in_reply_to_status_id": null,
+				"in_reply_to_status_id_str": null,
+				"in_reply_to_user_id": null,
+				"in_reply_to_user_id_str": null,
+				"in_reply_to_screen_name": null,
+				"user": {
+					"id": 268596033,
+					"id_str": "268596033",
+					"name": "\u65b0\u6f5f\u30c6\u30ec\u30d321",
+					"screen_name": "UX5ch",
+					"location": "\u65b0\u6f5f",
+					"description": "UX\u65b0\u6f5f\u30c6\u30ec\u30d321\u306e\u516c\u5f0f\u30a2\u30ab\u30a6\u30f3\u30c8\u3067\u3059\u3002\u756a\u7d44\u60c5\u5831\u3084\u30a4\u30d9\u30f3\u30c8\u6848\u5185\u306a\u3069\u3092\u4e2d\u5fc3\u306b\u9632\u707d\u60c5\u5831\u306a\u3069\u3082\u767a\u4fe1\u3057\u307e\u3059\u3002",
+					"url": "https://t.co/98dgHeSLNt",
+					"entities": {
+						"url": {
+							"urls": [
+								{
+									"url": "https://t.co/98dgHeSLNt",
+									"expanded_url": "http://www.uxtv.jp/",
+									"display_url": "uxtv.jp",
+									"indices": [0, 23]
+								}
+							]
+						},
+						"description": {
+							"urls": []
+						}
+					},
+					"protected": false,
+					"followers_count": 14609,
+					"friends_count": 3660,
+					"listed_count": 280,
+					"created_at": "Sat Mar 19 02:54:35 +0000 2011",
+					"favourites_count": 194,
+					"utc_offset": null,
+					"time_zone": null,
+					"geo_enabled": false,
+					"verified": false,
+					"statuses_count": 30416,
+					"lang": null,
+					"contributors_enabled": false,
+					"is_translator": false,
+					"is_translation_enabled": false,
+					"profile_background_color": "C0DEED",
+					"profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+					"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+					"profile_background_tile": false,
+					"profile_image_url": "http://pbs.twimg.com/profile_images/1111238366979194885/hWLzWAqx_normal.png",
+					"profile_image_url_https": "https://pbs.twimg.com/profile_images/1111238366979194885/hWLzWAqx_normal.png",
+					"profile_banner_url": "https://pbs.twimg.com/profile_banners/268596033/1541588064",
+					"profile_link_color": "1DA1F2",
+					"profile_sidebar_border_color": "C0DEED",
+					"profile_sidebar_fill_color": "DDEEF6",
+					"profile_text_color": "333333",
+					"profile_use_background_image": true,
+					"has_extended_profile": true,
+					"default_profile": true,
+					"default_profile_image": false,
+					"following": false,
+					"follow_request_sent": false,
+					"notifications": false,
+					"translator_type": "none"
+				},
+				"geo": null,
+				"coordinates": null,
+				"place": null,
+				"contributors": null,
+				"is_quote_status": false,
+				"retweet_count": 5,
+				"favorite_count": 24,
+				"favorited": false,
+				"retweeted": false,
+				"possibly_sensitive": false,
+				"lang": "ja"
+			},
+			"is_quote_status": false,
+			"retweet_count": 5,
+			"favorite_count": 0,
+			"favorited": false,
+			"retweeted": false,
+			"lang": "ja"
+		},
+		{
+			"created_at": "Fri May 22 11:53:01 +0000 2020",
+			"id": 1263800025953505281,
+			"id_str": "1263800025953505281",
+			"text": "\u201cStores exist for customers. Stores prosper with store staffs. Stores perish with store managers.\u201d \u2014 Choji Kuramoto\u2026 https://t.co/pPPIWSS9Ci",
+			"truncated": true,
+			"entities": {
+				"hashtags": [],
+				"symbols": [],
+				"user_mentions": [],
+				"urls": [
+					{
+						"url": "https://t.co/pPPIWSS9Ci",
+						"expanded_url": "https://twitter.com/i/web/status/1263800025953505281",
+						"display_url": "twitter.com/i/web/status/1\u2026",
+						"indices": [117, 140]
+					}
+				]
+			},
+			"metadata": {
+				"iso_language_code": "en",
+				"result_type": "recent"
+			},
+			"source": "\u003ca href=\"https://mobile.twitter.com\" rel=\"nofollow\"\u003eTwitter Web App\u003c/a\u003e",
+			"in_reply_to_status_id": null,
+			"in_reply_to_status_id_str": null,
+			"in_reply_to_user_id": null,
+			"in_reply_to_user_id_str": null,
+			"in_reply_to_screen_name": null,
+			"user": {
+				"id": 15150822,
+				"id_str": "15150822",
+				"name": "Alok b. Nandi",
+				"screen_name": "aloknandi",
+				"location": "www.aloknandi.com",
+				"description": "Creative Director @spread_ooo @architempo / Past President @ixda / Interaction Design Thinking Innovation Strategy CX PX UX / Narrative Designer Author Speaker",
+				"url": "https://t.co/bkoEO2o9KF",
+				"entities": {
+					"url": {
+						"urls": [
+							{
+								"url": "https://t.co/bkoEO2o9KF",
+								"expanded_url": "http://www.nandi.design",
+								"display_url": "nandi.design",
+								"indices": [0, 23]
+							}
+						]
+					},
+					"description": {
+						"urls": []
+					}
+				},
+				"protected": false,
+				"followers_count": 2695,
+				"friends_count": 1982,
+				"listed_count": 322,
+				"created_at": "Tue Jun 17 21:43:28 +0000 2008",
+				"favourites_count": 976,
+				"utc_offset": null,
+				"time_zone": null,
+				"geo_enabled": false,
+				"verified": false,
+				"statuses_count": 13467,
+				"lang": null,
+				"contributors_enabled": false,
+				"is_translator": false,
+				"is_translation_enabled": false,
+				"profile_background_color": "000000",
+				"profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+				"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+				"profile_background_tile": true,
+				"profile_image_url": "http://pbs.twimg.com/profile_images/1248000264155480064/Xse8cA46_normal.jpg",
+				"profile_image_url_https": "https://pbs.twimg.com/profile_images/1248000264155480064/Xse8cA46_normal.jpg",
+				"profile_banner_url": "https://pbs.twimg.com/profile_banners/15150822/1584572236",
+				"profile_link_color": "FA743E",
+				"profile_sidebar_border_color": "BDDCAD",
+				"profile_sidebar_fill_color": "DDFFCC",
+				"profile_text_color": "333333",
+				"profile_use_background_image": true,
+				"has_extended_profile": false,
+				"default_profile": false,
+				"default_profile_image": false,
+				"following": false,
+				"follow_request_sent": false,
+				"notifications": false,
+				"translator_type": "none"
+			},
+			"geo": null,
+			"coordinates": null,
+			"place": null,
+			"contributors": null,
+			"is_quote_status": false,
+			"retweet_count": 0,
+			"favorite_count": 0,
+			"favorited": false,
+			"retweeted": false,
+			"lang": "en"
+		},
+		{
+			"created_at": "Fri May 22 11:52:00 +0000 2020",
+			"id": 1263799772995104768,
+			"id_str": "1263799772995104768",
+			"text": "Unpacking Digital Transformation in Payments: How to Create an Effective Payments Strategy in a Shaky Economy\u2026 https://t.co/Yi0bw5IOjR",
+			"truncated": true,
+			"entities": {
+				"hashtags": [],
+				"symbols": [],
+				"user_mentions": [],
+				"urls": [
+					{
+						"url": "https://t.co/Yi0bw5IOjR",
+						"expanded_url": "https://twitter.com/i/web/status/1263799772995104768",
+						"display_url": "twitter.com/i/web/status/1\u2026",
+						"indices": [111, 134]
+					}
+				]
+			},
+			"metadata": {
+				"iso_language_code": "en",
+				"result_type": "recent"
+			},
+			"source": "\u003ca href=\"https://buffer.com\" rel=\"nofollow\"\u003eBuffer\u003c/a\u003e",
+			"in_reply_to_status_id": null,
+			"in_reply_to_status_id_str": null,
+			"in_reply_to_user_id": null,
+			"in_reply_to_user_id_str": null,
+			"in_reply_to_screen_name": null,
+			"user": {
+				"id": 3068690196,
+				"id_str": "3068690196",
+				"name": "Brian E. Thomas",
+				"screen_name": "DivergentCIO",
+				"location": "Kansas City",
+				"description": "An innovative, digital leader experienced in emerging trends, #Tech, #AI, #BigData #STEM; contributor @IDGWorld, @Coruzant; podcaster, blogger.",
+				"url": "https://t.co/kBff2v2RDy",
+				"entities": {
+					"url": {
+						"urls": [
+							{
+								"url": "https://t.co/kBff2v2RDy",
+								"expanded_url": "https://brianthomas.me",
+								"display_url": "brianthomas.me",
+								"indices": [0, 23]
+							}
+						]
+					},
+					"description": {
+						"urls": []
+					}
+				},
+				"protected": false,
+				"followers_count": 29125,
+				"friends_count": 26289,
+				"listed_count": 1668,
+				"created_at": "Sun Mar 08 21:43:57 +0000 2015",
+				"favourites_count": 12421,
+				"utc_offset": null,
+				"time_zone": null,
+				"geo_enabled": false,
+				"verified": false,
+				"statuses_count": 49383,
+				"lang": null,
+				"contributors_enabled": false,
+				"is_translator": false,
+				"is_translation_enabled": false,
+				"profile_background_color": "C0DEED",
+				"profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+				"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+				"profile_background_tile": false,
+				"profile_image_url": "http://pbs.twimg.com/profile_images/767507322583199745/rpfbzBzg_normal.jpg",
+				"profile_image_url_https": "https://pbs.twimg.com/profile_images/767507322583199745/rpfbzBzg_normal.jpg",
+				"profile_banner_url": "https://pbs.twimg.com/profile_banners/3068690196/1471828290",
+				"profile_link_color": "1DA1F2",
+				"profile_sidebar_border_color": "C0DEED",
+				"profile_sidebar_fill_color": "DDEEF6",
+				"profile_text_color": "333333",
+				"profile_use_background_image": true,
+				"has_extended_profile": true,
+				"default_profile": true,
+				"default_profile_image": false,
+				"following": false,
+				"follow_request_sent": false,
+				"notifications": false,
+				"translator_type": "none"
+			},
+			"geo": null,
+			"coordinates": null,
+			"place": null,
+			"contributors": null,
+			"is_quote_status": false,
+			"retweet_count": 0,
+			"favorite_count": 0,
+			"favorited": false,
+			"retweeted": false,
+			"possibly_sensitive": false,
+			"lang": "en"
+		},
+		{
+			"created_at": "Fri May 22 11:51:47 +0000 2020",
+			"id": 1263799718469152770,
+			"id_str": "1263799718469152770",
+			"text": "RT @floferreyra28: The easy, short-term way to make a customer happy when service fails is to give a coupon.\nI think the way to create a lo\u2026",
+			"truncated": false,
+			"entities": {
+				"hashtags": [],
+				"symbols": [],
+				"user_mentions": [
+					{
+						"screen_name": "floferreyra28",
+						"name": "florencia ferreyra",
+						"id": 510283583,
+						"id_str": "510283583",
+						"indices": [3, 17]
+					}
+				],
+				"urls": []
+			},
+			"metadata": {
+				"iso_language_code": "en",
+				"result_type": "recent"
+			},
+			"source": "\u003ca href=\"https://lpservicejam.com\" rel=\"nofollow\"\u003eLPServiceJamBot\u003c/a\u003e",
+			"in_reply_to_status_id": null,
+			"in_reply_to_status_id_str": null,
+			"in_reply_to_user_id": null,
+			"in_reply_to_user_id_str": null,
+			"in_reply_to_screen_name": null,
+			"user": {
+				"id": 1072292448506970112,
+				"id_str": "1072292448506970112",
+				"name": "Service Design Club",
+				"screen_name": "servicedsgnclub",
+				"location": "",
+				"description": "\ud83d\udd0e Consultas, charlas, proyectos y networking\n\ud83d\udcda Somos manijas del UX y Service Design\nS\u00famate a nuestra comunidad en Discord!\ud83d\udc47\ud83c\udffc",
+				"url": "https://t.co/c2GlBsvLJN",
+				"entities": {
+					"url": {
+						"urls": [
+							{
+								"url": "https://t.co/c2GlBsvLJN",
+								"expanded_url": "http://bit.ly/ServiceDesignClub",
+								"display_url": "bit.ly/ServiceDesignC\u2026",
+								"indices": [0, 23]
+							}
+						]
+					},
+					"description": {
+						"urls": []
+					}
+				},
+				"protected": false,
+				"followers_count": 440,
+				"friends_count": 307,
+				"listed_count": 1,
+				"created_at": "Tue Dec 11 00:50:16 +0000 2018",
+				"favourites_count": 86,
+				"utc_offset": null,
+				"time_zone": null,
+				"geo_enabled": false,
+				"verified": false,
+				"statuses_count": 4710,
+				"lang": null,
+				"contributors_enabled": false,
+				"is_translator": false,
+				"is_translation_enabled": false,
+				"profile_background_color": "F5F8FA",
+				"profile_background_image_url": null,
+				"profile_background_image_url_https": null,
+				"profile_background_tile": false,
+				"profile_image_url": "http://pbs.twimg.com/profile_images/1245874917884780544/3C_sgbty_normal.jpg",
+				"profile_image_url_https": "https://pbs.twimg.com/profile_images/1245874917884780544/3C_sgbty_normal.jpg",
+				"profile_banner_url": "https://pbs.twimg.com/profile_banners/1072292448506970112/1585874705",
+				"profile_link_color": "1DA1F2",
+				"profile_sidebar_border_color": "C0DEED",
+				"profile_sidebar_fill_color": "DDEEF6",
+				"profile_text_color": "333333",
+				"profile_use_background_image": true,
+				"has_extended_profile": false,
+				"default_profile": true,
+				"default_profile_image": false,
+				"following": false,
+				"follow_request_sent": false,
+				"notifications": false,
+				"translator_type": "none"
+			},
+			"geo": null,
+			"coordinates": null,
+			"place": null,
+			"contributors": null,
+			"retweeted_status": {
+				"created_at": "Thu May 21 19:37:24 +0000 2020",
+				"id": 1263554507243491328,
+				"id_str": "1263554507243491328",
+				"text": "The easy, short-term way to make a customer happy when service fails is to give a coupon.\nI think the way to create\u2026 https://t.co/Mk3sZiT3WH",
+				"truncated": true,
+				"entities": {
+					"hashtags": [],
+					"symbols": [],
+					"user_mentions": [],
+					"urls": [
+						{
+							"url": "https://t.co/Mk3sZiT3WH",
+							"expanded_url": "https://twitter.com/i/web/status/1263554507243491328",
+							"display_url": "twitter.com/i/web/status/1\u2026",
+							"indices": [117, 140]
+						}
+					]
+				},
+				"metadata": {
+					"iso_language_code": "en",
+					"result_type": "recent"
+				},
+				"source": "\u003ca href=\"https://mobile.twitter.com\" rel=\"nofollow\"\u003eTwitter Web App\u003c/a\u003e",
+				"in_reply_to_status_id": null,
+				"in_reply_to_status_id_str": null,
+				"in_reply_to_user_id": null,
+				"in_reply_to_user_id_str": null,
+				"in_reply_to_screen_name": null,
+				"user": {
+					"id": 510283583,
+					"id_str": "510283583",
+					"name": "florencia ferreyra",
+					"screen_name": "floferreyra28",
+					"location": "Uruguay",
+					"description": "I humanize technology for people and business objective | write about product, UX, strategy and tourism. \ud83c\udfaf \ud83d\udcf8\ud83c\udf5c\u2708\ufe0f #CSPO #UX #Tech #Travel #DSX",
+					"url": "https://t.co/73hqIOJa9V",
+					"entities": {
+						"url": {
+							"urls": [
+								{
+									"url": "https://t.co/73hqIOJa9V",
+									"expanded_url": "http://bit.ly/FloFerreyra-blog",
+									"display_url": "bit.ly/FloFerreyra-bl\u2026",
+									"indices": [0, 23]
+								}
+							]
+						},
+						"description": {
+							"urls": []
+						}
+					},
+					"protected": false,
+					"followers_count": 425,
+					"friends_count": 902,
+					"listed_count": 4,
+					"created_at": "Thu Mar 01 14:00:43 +0000 2012",
+					"favourites_count": 795,
+					"utc_offset": null,
+					"time_zone": null,
+					"geo_enabled": true,
+					"verified": false,
+					"statuses_count": 722,
+					"lang": null,
+					"contributors_enabled": false,
+					"is_translator": false,
+					"is_translation_enabled": false,
+					"profile_background_color": "FCEBB6",
+					"profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+					"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+					"profile_background_tile": true,
+					"profile_image_url": "http://pbs.twimg.com/profile_images/1142540288579330048/nEKI4j2l_normal.jpg",
+					"profile_image_url_https": "https://pbs.twimg.com/profile_images/1142540288579330048/nEKI4j2l_normal.jpg",
+					"profile_banner_url": "https://pbs.twimg.com/profile_banners/510283583/1555985967",
+					"profile_link_color": "1B95E0",
+					"profile_sidebar_border_color": "F0A830",
+					"profile_sidebar_fill_color": "78C0A8",
+					"profile_text_color": "CE7834",
+					"profile_use_background_image": true,
+					"has_extended_profile": true,
+					"default_profile": false,
+					"default_profile_image": false,
+					"following": false,
+					"follow_request_sent": false,
+					"notifications": false,
+					"translator_type": "none"
+				},
+				"geo": null,
+				"coordinates": null,
+				"place": null,
+				"contributors": null,
+				"is_quote_status": true,
+				"quoted_status_id": 1263530064408346624,
+				"quoted_status_id_str": "1263530064408346624",
+				"quoted_status": {
+					"created_at": "Thu May 21 18:00:17 +0000 2020",
+					"id": 1263530064408346624,
+					"id_str": "1263530064408346624",
+					"text": "A service design idea explained in under 2 minutes: \nhttps://t.co/zIFCEsdYMB https://t.co/A0pW6OPGP8",
+					"truncated": false,
+					"entities": {
+						"hashtags": [],
+						"symbols": [],
+						"user_mentions": [],
+						"urls": [
+							{
+								"url": "https://t.co/zIFCEsdYMB",
+								"expanded_url": "https://www.youtube.com/watch?v=zgdPjZVIbW4&t=7s",
+								"display_url": "youtube.com/watch?v=zgdPjZ\u2026",
+								"indices": [53, 76]
+							},
+							{
+								"url": "https://t.co/A0pW6OPGP8",
+								"expanded_url": "http://ed.gr/blria",
+								"display_url": "ed.gr/blria",
+								"indices": [77, 100]
+							}
+						]
+					},
+					"metadata": {
+						"iso_language_code": "en",
+						"result_type": "recent"
+					},
+					"source": "\u003ca href=\"https://socialbee.io/\" rel=\"nofollow\"\u003eSocialBee.io v2\u003c/a\u003e",
+					"in_reply_to_status_id": null,
+					"in_reply_to_status_id_str": null,
+					"in_reply_to_user_id": null,
+					"in_reply_to_user_id_str": null,
+					"in_reply_to_screen_name": null,
+					"user": {
+						"id": 2559430682,
+						"id_str": "2559430682",
+						"name": "Daniele Catalanotto",
+						"screen_name": "danielec",
+						"location": "Switzerland",
+						"description": "I'm a Swiss service designer and author. I believe that helping others is one of the nicest hobbies in the world. Co-founder of @sdxjobs",
+						"url": "https://t.co/BkFi29TXHy",
+						"entities": {
+							"url": {
+								"urls": [
+									{
+										"url": "https://t.co/BkFi29TXHy",
+										"expanded_url": "http://www.catalanotto.ch",
+										"display_url": "catalanotto.ch",
+										"indices": [0, 23]
+									}
+								]
+							},
+							"description": {
+								"urls": []
+							}
+						},
+						"protected": false,
+						"followers_count": 748,
+						"friends_count": 480,
+						"listed_count": 119,
+						"created_at": "Tue Jun 10 17:21:22 +0000 2014",
+						"favourites_count": 2230,
+						"utc_offset": null,
+						"time_zone": null,
+						"geo_enabled": true,
+						"verified": false,
+						"statuses_count": 780,
+						"lang": null,
+						"contributors_enabled": false,
+						"is_translator": false,
+						"is_translation_enabled": false,
+						"profile_background_color": "C0DEED",
+						"profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+						"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+						"profile_background_tile": false,
+						"profile_image_url": "http://pbs.twimg.com/profile_images/480806401879470080/DjZ6CzHG_normal.jpeg",
+						"profile_image_url_https": "https://pbs.twimg.com/profile_images/480806401879470080/DjZ6CzHG_normal.jpeg",
+						"profile_banner_url": "https://pbs.twimg.com/profile_banners/2559430682/1403468253",
+						"profile_link_color": "000000",
+						"profile_sidebar_border_color": "C0DEED",
+						"profile_sidebar_fill_color": "DDEEF6",
+						"profile_text_color": "333333",
+						"profile_use_background_image": true,
+						"has_extended_profile": false,
+						"default_profile": false,
+						"default_profile_image": false,
+						"following": false,
+						"follow_request_sent": false,
+						"notifications": false,
+						"translator_type": "none"
+					},
+					"geo": null,
+					"coordinates": null,
+					"place": null,
+					"contributors": null,
+					"is_quote_status": false,
+					"retweet_count": 0,
+					"favorite_count": 2,
+					"favorited": false,
+					"retweeted": false,
+					"possibly_sensitive": false,
+					"lang": "en"
+				},
+				"retweet_count": 2,
+				"favorite_count": 2,
+				"favorited": false,
+				"retweeted": false,
+				"possibly_sensitive": false,
+				"lang": "en"
+			},
+			"is_quote_status": true,
+			"quoted_status_id": 1263530064408346624,
+			"quoted_status_id_str": "1263530064408346624",
+			"retweet_count": 2,
+			"favorite_count": 0,
+			"favorited": false,
+			"retweeted": false,
+			"lang": "en"
+		},
+		{
+			"created_at": "Fri May 22 11:51:43 +0000 2020",
+			"id": 1263799698382630913,
+			"id_str": "1263799698382630913",
+			"text": "RT @designerdaily: How to personalize the mobile experience for app users https://t.co/y8mpohyvMJ #blog #howtotutorials #ux #webdesign",
+			"truncated": false,
+			"entities": {
+				"hashtags": [
+					{
+						"text": "blog",
+						"indices": [98, 103]
+					},
+					{
+						"text": "howtotutorials",
+						"indices": [104, 119]
+					},
+					{
+						"text": "ux",
+						"indices": [120, 123]
+					},
+					{
+						"text": "webdesign",
+						"indices": [124, 134]
+					}
+				],
+				"symbols": [],
+				"user_mentions": [
+					{
+						"screen_name": "designerdaily",
+						"name": "Designer Daily",
+						"id": 125859276,
+						"id_str": "125859276",
+						"indices": [3, 17]
+					}
+				],
+				"urls": [
+					{
+						"url": "https://t.co/y8mpohyvMJ",
+						"expanded_url": "https://goo.gl/fb/MUVDob",
+						"display_url": "goo.gl/fb/MUVDob",
+						"indices": [74, 97]
+					}
+				]
+			},
+			"metadata": {
+				"iso_language_code": "en",
+				"result_type": "recent"
+			},
+			"source": "\u003ca href=\"http://twinybots.com\" rel=\"nofollow\"\u003eTwinyBots\u003c/a\u003e",
+			"in_reply_to_status_id": null,
+			"in_reply_to_status_id_str": null,
+			"in_reply_to_user_id": null,
+			"in_reply_to_user_id_str": null,
+			"in_reply_to_screen_name": null,
+			"user": {
+				"id": 2799001373,
+				"id_str": "2799001373",
+				"name": "The Soup Creative",
+				"screen_name": "TheSoupCreative",
+				"location": "worldwide",
+				"description": "\"Freedom lies in being bold.\" \u2013 Robert Frost",
+				"url": "https://t.co/VY8nUau7pF",
+				"entities": {
+					"url": {
+						"urls": [
+							{
+								"url": "https://t.co/VY8nUau7pF",
+								"expanded_url": "https://www.thesoup.co",
+								"display_url": "thesoup.co",
+								"indices": [0, 23]
+							}
+						]
+					},
+					"description": {
+						"urls": []
+					}
+				},
+				"protected": false,
+				"followers_count": 91,
+				"friends_count": 86,
+				"listed_count": 100,
+				"created_at": "Wed Oct 01 21:42:13 +0000 2014",
+				"favourites_count": 462,
+				"utc_offset": null,
+				"time_zone": null,
+				"geo_enabled": false,
+				"verified": false,
+				"statuses_count": 4091,
+				"lang": null,
+				"contributors_enabled": false,
+				"is_translator": false,
+				"is_translation_enabled": false,
+				"profile_background_color": "C0DEED",
+				"profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+				"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+				"profile_background_tile": false,
+				"profile_image_url": "http://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+				"profile_image_url_https": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+				"profile_link_color": "1DA1F2",
+				"profile_sidebar_border_color": "C0DEED",
+				"profile_sidebar_fill_color": "DDEEF6",
+				"profile_text_color": "333333",
+				"profile_use_background_image": true,
+				"has_extended_profile": false,
+				"default_profile": true,
+				"default_profile_image": true,
+				"following": false,
+				"follow_request_sent": false,
+				"notifications": false,
+				"translator_type": "none"
+			},
+			"geo": null,
+			"coordinates": null,
+			"place": null,
+			"contributors": null,
+			"retweeted_status": {
+				"created_at": "Sun May 03 08:51:37 +0000 2020",
+				"id": 1256869007900246016,
+				"id_str": "1256869007900246016",
+				"text": "How to personalize the mobile experience for app users https://t.co/y8mpohyvMJ #blog #howtotutorials #ux #webdesign",
+				"truncated": false,
+				"entities": {
+					"hashtags": [
+						{
+							"text": "blog",
+							"indices": [79, 84]
+						},
+						{
+							"text": "howtotutorials",
+							"indices": [85, 100]
+						},
+						{
+							"text": "ux",
+							"indices": [101, 104]
+						},
+						{
+							"text": "webdesign",
+							"indices": [105, 115]
+						}
+					],
+					"symbols": [],
+					"user_mentions": [],
+					"urls": [
+						{
+							"url": "https://t.co/y8mpohyvMJ",
+							"expanded_url": "https://goo.gl/fb/MUVDob",
+							"display_url": "goo.gl/fb/MUVDob",
+							"indices": [55, 78]
+						}
+					]
+				},
+				"metadata": {
+					"iso_language_code": "en",
+					"result_type": "recent"
+				},
+				"source": "\u003ca href=\"https://www.google.com/\" rel=\"nofollow\"\u003eGoogle\u003c/a\u003e",
+				"in_reply_to_status_id": null,
+				"in_reply_to_status_id_str": null,
+				"in_reply_to_user_id": null,
+				"in_reply_to_user_id_str": null,
+				"in_reply_to_screen_name": null,
+				"user": {
+					"id": 125859276,
+					"id_str": "125859276",
+					"name": "Designer Daily",
+					"screen_name": "designerdaily",
+					"location": "Fribourg, Switzerland",
+					"description": "Graphic & Web Design articles, inspiration and resources.",
+					"url": "http://t.co/ux8MxKs8Ww",
+					"entities": {
+						"url": {
+							"urls": [
+								{
+									"url": "http://t.co/ux8MxKs8Ww",
+									"expanded_url": "http://www.designer-daily.com",
+									"display_url": "designer-daily.com",
+									"indices": [0, 22]
+								}
+							]
+						},
+						"description": {
+							"urls": []
+						}
+					},
+					"protected": false,
+					"followers_count": 2304,
+					"friends_count": 792,
+					"listed_count": 229,
+					"created_at": "Wed Mar 24 02:54:23 +0000 2010",
+					"favourites_count": 126,
+					"utc_offset": null,
+					"time_zone": null,
+					"geo_enabled": false,
+					"verified": false,
+					"statuses_count": 7405,
+					"lang": null,
+					"contributors_enabled": false,
+					"is_translator": false,
+					"is_translation_enabled": false,
+					"profile_background_color": "C0DEED",
+					"profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+					"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+					"profile_background_tile": false,
+					"profile_image_url": "http://pbs.twimg.com/profile_images/775591655/logo-designer-daily_normal.png",
+					"profile_image_url_https": "https://pbs.twimg.com/profile_images/775591655/logo-designer-daily_normal.png",
+					"profile_link_color": "1DA1F2",
+					"profile_sidebar_border_color": "C0DEED",
+					"profile_sidebar_fill_color": "DDEEF6",
+					"profile_text_color": "333333",
+					"profile_use_background_image": true,
+					"has_extended_profile": false,
+					"default_profile": true,
+					"default_profile_image": false,
+					"following": false,
+					"follow_request_sent": false,
+					"notifications": false,
+					"translator_type": "none"
+				},
+				"geo": null,
+				"coordinates": null,
+				"place": null,
+				"contributors": null,
+				"is_quote_status": false,
+				"retweet_count": 5,
+				"favorite_count": 3,
+				"favorited": false,
+				"retweeted": false,
+				"possibly_sensitive": false,
+				"lang": "en"
+			},
+			"is_quote_status": false,
+			"retweet_count": 5,
+			"favorite_count": 0,
+			"favorited": false,
+			"retweeted": false,
+			"possibly_sensitive": false,
+			"lang": "en"
+		},
+		{
+			"created_at": "Fri May 22 11:50:39 +0000 2020",
+			"id": 1263799432010772480,
+			"id_str": "1263799432010772480",
+			"text": "RT @iphonegalaxymd: Teacher: You have to study everyday,it's not possible to learn everything 1 day before exam.\nMe: Darling, you have no i\u2026",
+			"truncated": false,
+			"entities": {
+				"hashtags": [],
+				"symbols": [],
+				"user_mentions": [
+					{
+						"screen_name": "iphonegalaxymd",
+						"name": "\ud83d\udcb5 iPhoneGalaxyMD",
+						"id": 69872718,
+						"id_str": "69872718",
+						"indices": [3, 18]
+					}
+				],
+				"urls": []
+			},
+			"metadata": {
+				"iso_language_code": "en",
+				"result_type": "recent"
+			},
+			"source": "\u003ca href=\"https://nlogn.in\" rel=\"nofollow\"\u003enlognrobot\u003c/a\u003e",
+			"in_reply_to_status_id": null,
+			"in_reply_to_status_id_str": null,
+			"in_reply_to_user_id": null,
+			"in_reply_to_user_id_str": null,
+			"in_reply_to_screen_name": null,
+			"user": {
+				"id": 1260062769543434240,
+				"id_str": "1260062769543434240",
+				"name": "nlognbot",
+				"screen_name": "nlognbot",
+				"location": "",
+				"description": "Hi, I'm a bot that like and retweets #100daysofcode #javascript #nodejs and #nlognco.\nYou can follow me.\ud83d\ude09\n\nP.S. I was created by @nlognco and they are awesome.",
+				"url": "https://t.co/PujHDQomPA",
+				"entities": {
+					"url": {
+						"urls": [
+							{
+								"url": "https://t.co/PujHDQomPA",
+								"expanded_url": "http://nlogn.in",
+								"display_url": "nlogn.in",
+								"indices": [0, 23]
+							}
+						]
+					},
+					"description": {
+						"urls": []
+					}
+				},
+				"protected": false,
+				"followers_count": 201,
+				"friends_count": 1,
+				"listed_count": 33,
+				"created_at": "Tue May 12 04:22:53 +0000 2020",
+				"favourites_count": 2,
+				"utc_offset": null,
+				"time_zone": null,
+				"geo_enabled": false,
+				"verified": false,
+				"statuses_count": 18817,
+				"lang": null,
+				"contributors_enabled": false,
+				"is_translator": false,
+				"is_translation_enabled": false,
+				"profile_background_color": "F5F8FA",
+				"profile_background_image_url": null,
+				"profile_background_image_url_https": null,
+				"profile_background_tile": false,
+				"profile_image_url": "http://pbs.twimg.com/profile_images/1260063888189448193/Xpalo9C4_normal.jpg",
+				"profile_image_url_https": "https://pbs.twimg.com/profile_images/1260063888189448193/Xpalo9C4_normal.jpg",
+				"profile_banner_url": "https://pbs.twimg.com/profile_banners/1260062769543434240/1589258476",
+				"profile_link_color": "1DA1F2",
+				"profile_sidebar_border_color": "C0DEED",
+				"profile_sidebar_fill_color": "DDEEF6",
+				"profile_text_color": "333333",
+				"profile_use_background_image": true,
+				"has_extended_profile": false,
+				"default_profile": true,
+				"default_profile_image": false,
+				"following": false,
+				"follow_request_sent": false,
+				"notifications": false,
+				"translator_type": "none"
+			},
+			"geo": null,
+			"coordinates": null,
+			"place": null,
+			"contributors": null,
+			"retweeted_status": {
+				"created_at": "Fri May 22 11:42:02 +0000 2020",
+				"id": 1263797262280466432,
+				"id_str": "1263797262280466432",
+				"text": "Teacher: You have to study everyday,it's not possible to learn everything 1 day before exam.\nMe: Darling, you have\u2026 https://t.co/AFVfgSuEdA",
+				"truncated": true,
+				"entities": {
+					"hashtags": [],
+					"symbols": [],
+					"user_mentions": [],
+					"urls": [
+						{
+							"url": "https://t.co/AFVfgSuEdA",
+							"expanded_url": "https://twitter.com/i/web/status/1263797262280466432",
+							"display_url": "twitter.com/i/web/status/1\u2026",
+							"indices": [116, 139]
+						}
+					]
+				},
+				"metadata": {
+					"iso_language_code": "en",
+					"result_type": "recent"
+				},
+				"source": "\u003ca href=\"https://buffer.com\" rel=\"nofollow\"\u003eBuffer\u003c/a\u003e",
+				"in_reply_to_status_id": null,
+				"in_reply_to_status_id_str": null,
+				"in_reply_to_user_id": null,
+				"in_reply_to_user_id_str": null,
+				"in_reply_to_screen_name": null,
+				"user": {
+					"id": 69872718,
+					"id_str": "69872718",
+					"name": "\ud83d\udcb5 iPhoneGalaxyMD",
+					"screen_name": "iphonegalaxymd",
+					"location": "Pottstown, PA",
+					"description": "Dream it, Believed it\ud83d\udd0c! If you're active\u2764\ufe0f & \ud83d\udd01 then turn on my notifications \ud83c\udd97 DM if you need help promoting anything \ud83d\udde3",
+					"url": null,
+					"entities": {
+						"description": {
+							"urls": []
+						}
+					},
+					"protected": false,
+					"followers_count": 11506,
+					"friends_count": 12510,
+					"listed_count": 192,
+					"created_at": "Sat Aug 29 13:59:14 +0000 2009",
+					"favourites_count": 9550,
+					"utc_offset": null,
+					"time_zone": null,
+					"geo_enabled": true,
+					"verified": false,
+					"statuses_count": 79271,
+					"lang": null,
+					"contributors_enabled": false,
+					"is_translator": false,
+					"is_translation_enabled": false,
+					"profile_background_color": "1A1B1F",
+					"profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif",
+					"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif",
+					"profile_background_tile": true,
+					"profile_image_url": "http://pbs.twimg.com/profile_images/1135162652890685440/KzQqm5HQ_normal.jpg",
+					"profile_image_url_https": "https://pbs.twimg.com/profile_images/1135162652890685440/KzQqm5HQ_normal.jpg",
+					"profile_banner_url": "https://pbs.twimg.com/profile_banners/69872718/1559480895",
+					"profile_link_color": "2FC2EF",
+					"profile_sidebar_border_color": "000000",
+					"profile_sidebar_fill_color": "252429",
+					"profile_text_color": "666666",
+					"profile_use_background_image": true,
+					"has_extended_profile": false,
+					"default_profile": false,
+					"default_profile_image": false,
+					"following": false,
+					"follow_request_sent": false,
+					"notifications": false,
+					"translator_type": "regular"
+				},
+				"geo": null,
+				"coordinates": null,
+				"place": null,
+				"contributors": null,
+				"is_quote_status": false,
+				"retweet_count": 4,
+				"favorite_count": 2,
+				"favorited": false,
+				"retweeted": false,
+				"possibly_sensitive": false,
+				"lang": "en"
+			},
+			"is_quote_status": false,
+			"retweet_count": 4,
+			"favorite_count": 0,
+			"favorited": false,
+			"retweeted": false,
+			"lang": "en"
+		},
+		{
+			"created_at": "Fri May 22 11:50:39 +0000 2020",
+			"id": 1263799430819479552,
+			"id_str": "1263799430819479552",
+			"text": "RT @iphonegalaxymd: Teacher: You have to study everyday,it's not possible to learn everything 1 day before exam.\nMe: Darling, you have no i\u2026",
+			"truncated": false,
+			"entities": {
+				"hashtags": [],
+				"symbols": [],
+				"user_mentions": [
+					{
+						"screen_name": "iphonegalaxymd",
+						"name": "\ud83d\udcb5 iPhoneGalaxyMD",
+						"id": 69872718,
+						"id_str": "69872718",
+						"indices": [3, 18]
+					}
+				],
+				"urls": []
+			},
+			"metadata": {
+				"iso_language_code": "en",
+				"result_type": "recent"
+			},
+			"source": "\u003ca href=\"https://github.com/AlFalahTaieb\" rel=\"nofollow\"\u003eJs_100_Day_Code\u003c/a\u003e",
+			"in_reply_to_status_id": null,
+			"in_reply_to_status_id_str": null,
+			"in_reply_to_user_id": null,
+			"in_reply_to_user_id_str": null,
+			"in_reply_to_screen_name": null,
+			"user": {
+				"id": 885513434569355265,
+				"id_str": "885513434569355265",
+				"name": "JSBot",
+				"screen_name": "Taieb_Bot",
+				"location": "Raspberry PI",
+				"description": "I retweet all about #100DaysOfCode #Javascript and my mother country #Tunisia created by @Filsdelarabe",
+				"url": null,
+				"entities": {
+					"description": {
+						"urls": []
+					}
+				},
+				"protected": false,
+				"followers_count": 2318,
+				"friends_count": 1,
+				"listed_count": 82,
+				"created_at": "Thu Jul 13 14:57:09 +0000 2017",
+				"favourites_count": 85129,
+				"utc_offset": null,
+				"time_zone": null,
+				"geo_enabled": false,
+				"verified": false,
+				"statuses_count": 439810,
+				"lang": null,
+				"contributors_enabled": false,
+				"is_translator": false,
+				"is_translation_enabled": false,
+				"profile_background_color": "000000",
+				"profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+				"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+				"profile_background_tile": false,
+				"profile_image_url": "http://pbs.twimg.com/profile_images/885513954818220033/gf3Ci4dO_normal.jpg",
+				"profile_image_url_https": "https://pbs.twimg.com/profile_images/885513954818220033/gf3Ci4dO_normal.jpg",
+				"profile_banner_url": "https://pbs.twimg.com/profile_banners/885513434569355265/1499969529",
+				"profile_link_color": "ABB8C2",
+				"profile_sidebar_border_color": "000000",
+				"profile_sidebar_fill_color": "000000",
+				"profile_text_color": "000000",
+				"profile_use_background_image": false,
+				"has_extended_profile": true,
+				"default_profile": false,
+				"default_profile_image": false,
+				"following": false,
+				"follow_request_sent": false,
+				"notifications": false,
+				"translator_type": "none"
+			},
+			"geo": null,
+			"coordinates": null,
+			"place": null,
+			"contributors": null,
+			"retweeted_status": {
+				"created_at": "Fri May 22 11:42:02 +0000 2020",
+				"id": 1263797262280466432,
+				"id_str": "1263797262280466432",
+				"text": "Teacher: You have to study everyday,it's not possible to learn everything 1 day before exam.\nMe: Darling, you have\u2026 https://t.co/AFVfgSuEdA",
+				"truncated": true,
+				"entities": {
+					"hashtags": [],
+					"symbols": [],
+					"user_mentions": [],
+					"urls": [
+						{
+							"url": "https://t.co/AFVfgSuEdA",
+							"expanded_url": "https://twitter.com/i/web/status/1263797262280466432",
+							"display_url": "twitter.com/i/web/status/1\u2026",
+							"indices": [116, 139]
+						}
+					]
+				},
+				"metadata": {
+					"iso_language_code": "en",
+					"result_type": "recent"
+				},
+				"source": "\u003ca href=\"https://buffer.com\" rel=\"nofollow\"\u003eBuffer\u003c/a\u003e",
+				"in_reply_to_status_id": null,
+				"in_reply_to_status_id_str": null,
+				"in_reply_to_user_id": null,
+				"in_reply_to_user_id_str": null,
+				"in_reply_to_screen_name": null,
+				"user": {
+					"id": 69872718,
+					"id_str": "69872718",
+					"name": "\ud83d\udcb5 iPhoneGalaxyMD",
+					"screen_name": "iphonegalaxymd",
+					"location": "Pottstown, PA",
+					"description": "Dream it, Believed it\ud83d\udd0c! If you're active\u2764\ufe0f & \ud83d\udd01 then turn on my notifications \ud83c\udd97 DM if you need help promoting anything \ud83d\udde3",
+					"url": null,
+					"entities": {
+						"description": {
+							"urls": []
+						}
+					},
+					"protected": false,
+					"followers_count": 11506,
+					"friends_count": 12510,
+					"listed_count": 192,
+					"created_at": "Sat Aug 29 13:59:14 +0000 2009",
+					"favourites_count": 9550,
+					"utc_offset": null,
+					"time_zone": null,
+					"geo_enabled": true,
+					"verified": false,
+					"statuses_count": 79271,
+					"lang": null,
+					"contributors_enabled": false,
+					"is_translator": false,
+					"is_translation_enabled": false,
+					"profile_background_color": "1A1B1F",
+					"profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif",
+					"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif",
+					"profile_background_tile": true,
+					"profile_image_url": "http://pbs.twimg.com/profile_images/1135162652890685440/KzQqm5HQ_normal.jpg",
+					"profile_image_url_https": "https://pbs.twimg.com/profile_images/1135162652890685440/KzQqm5HQ_normal.jpg",
+					"profile_banner_url": "https://pbs.twimg.com/profile_banners/69872718/1559480895",
+					"profile_link_color": "2FC2EF",
+					"profile_sidebar_border_color": "000000",
+					"profile_sidebar_fill_color": "252429",
+					"profile_text_color": "666666",
+					"profile_use_background_image": true,
+					"has_extended_profile": false,
+					"default_profile": false,
+					"default_profile_image": false,
+					"following": false,
+					"follow_request_sent": false,
+					"notifications": false,
+					"translator_type": "regular"
+				},
+				"geo": null,
+				"coordinates": null,
+				"place": null,
+				"contributors": null,
+				"is_quote_status": false,
+				"retweet_count": 4,
+				"favorite_count": 2,
+				"favorited": false,
+				"retweeted": false,
+				"possibly_sensitive": false,
+				"lang": "en"
+			},
+			"is_quote_status": false,
+			"retweet_count": 4,
+			"favorite_count": 0,
+			"favorited": false,
+			"retweeted": false,
+			"lang": "en"
+		},
+		{
+			"created_at": "Fri May 22 11:50:37 +0000 2020",
+			"id": 1263799423311757313,
+			"id_str": "1263799423311757313",
+			"text": "RT @iphonegalaxymd: Teacher: You have to study everyday,it's not possible to learn everything 1 day before exam.\nMe: Darling, you have no i\u2026",
+			"truncated": false,
+			"entities": {
+				"hashtags": [],
+				"symbols": [],
+				"user_mentions": [
+					{
+						"screen_name": "iphonegalaxymd",
+						"name": "\ud83d\udcb5 iPhoneGalaxyMD",
+						"id": 69872718,
+						"id_str": "69872718",
+						"indices": [3, 18]
+					}
+				],
+				"urls": []
+			},
+			"metadata": {
+				"iso_language_code": "en",
+				"result_type": "recent"
+			},
+			"source": "\u003ca href=\"http://aaroncuddeback.com\" rel=\"nofollow\"\u003eaaroncuddeback.com\u003c/a\u003e",
+			"in_reply_to_status_id": null,
+			"in_reply_to_status_id_str": null,
+			"in_reply_to_user_id": null,
+			"in_reply_to_user_id_str": null,
+			"in_reply_to_screen_name": null,
+			"user": {
+				"id": 310897418,
+				"id_str": "310897418",
+				"name": "Aaron Cuddeback",
+				"screen_name": "AaronCuddeback",
+				"location": "Sacramento, CA",
+				"description": "Midlife Coder\nFather, Entrepreneur, CEO, Software Developer, Fearless.\nowner: https://t.co/YVyJ5hl4WT",
+				"url": "https://t.co/oLCJZbt9At",
+				"entities": {
+					"url": {
+						"urls": [
+							{
+								"url": "https://t.co/oLCJZbt9At",
+								"expanded_url": "https://aaroncuddeback.dev",
+								"display_url": "aaroncuddeback.dev",
+								"indices": [0, 23]
+							}
+						]
+					},
+					"description": {
+						"urls": [
+							{
+								"url": "https://t.co/YVyJ5hl4WT",
+								"expanded_url": "http://urbanrisedesigns.com",
+								"display_url": "urbanrisedesigns.com",
+								"indices": [79, 102]
+							}
+						]
+					}
+				},
+				"protected": false,
+				"followers_count": 12950,
+				"friends_count": 135,
+				"listed_count": 284,
+				"created_at": "Sat Jun 04 14:57:55 +0000 2011",
+				"favourites_count": 36370,
+				"utc_offset": null,
+				"time_zone": null,
+				"geo_enabled": false,
+				"verified": false,
+				"statuses_count": 846056,
+				"lang": null,
+				"contributors_enabled": false,
+				"is_translator": false,
+				"is_translation_enabled": false,
+				"profile_background_color": "000000",
+				"profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+				"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+				"profile_background_tile": false,
+				"profile_image_url": "http://pbs.twimg.com/profile_images/1046220721087688704/RidtZYBx_normal.jpg",
+				"profile_image_url_https": "https://pbs.twimg.com/profile_images/1046220721087688704/RidtZYBx_normal.jpg",
+				"profile_banner_url": "https://pbs.twimg.com/profile_banners/310897418/1572929508",
+				"profile_link_color": "FF691F",
+				"profile_sidebar_border_color": "000000",
+				"profile_sidebar_fill_color": "000000",
+				"profile_text_color": "000000",
+				"profile_use_background_image": false,
+				"has_extended_profile": true,
+				"default_profile": false,
+				"default_profile_image": false,
+				"following": false,
+				"follow_request_sent": false,
+				"notifications": false,
+				"translator_type": "none"
+			},
+			"geo": null,
+			"coordinates": null,
+			"place": null,
+			"contributors": null,
+			"retweeted_status": {
+				"created_at": "Fri May 22 11:42:02 +0000 2020",
+				"id": 1263797262280466432,
+				"id_str": "1263797262280466432",
+				"text": "Teacher: You have to study everyday,it's not possible to learn everything 1 day before exam.\nMe: Darling, you have\u2026 https://t.co/AFVfgSuEdA",
+				"truncated": true,
+				"entities": {
+					"hashtags": [],
+					"symbols": [],
+					"user_mentions": [],
+					"urls": [
+						{
+							"url": "https://t.co/AFVfgSuEdA",
+							"expanded_url": "https://twitter.com/i/web/status/1263797262280466432",
+							"display_url": "twitter.com/i/web/status/1\u2026",
+							"indices": [116, 139]
+						}
+					]
+				},
+				"metadata": {
+					"iso_language_code": "en",
+					"result_type": "recent"
+				},
+				"source": "\u003ca href=\"https://buffer.com\" rel=\"nofollow\"\u003eBuffer\u003c/a\u003e",
+				"in_reply_to_status_id": null,
+				"in_reply_to_status_id_str": null,
+				"in_reply_to_user_id": null,
+				"in_reply_to_user_id_str": null,
+				"in_reply_to_screen_name": null,
+				"user": {
+					"id": 69872718,
+					"id_str": "69872718",
+					"name": "\ud83d\udcb5 iPhoneGalaxyMD",
+					"screen_name": "iphonegalaxymd",
+					"location": "Pottstown, PA",
+					"description": "Dream it, Believed it\ud83d\udd0c! If you're active\u2764\ufe0f & \ud83d\udd01 then turn on my notifications \ud83c\udd97 DM if you need help promoting anything \ud83d\udde3",
+					"url": null,
+					"entities": {
+						"description": {
+							"urls": []
+						}
+					},
+					"protected": false,
+					"followers_count": 11506,
+					"friends_count": 12510,
+					"listed_count": 192,
+					"created_at": "Sat Aug 29 13:59:14 +0000 2009",
+					"favourites_count": 9550,
+					"utc_offset": null,
+					"time_zone": null,
+					"geo_enabled": true,
+					"verified": false,
+					"statuses_count": 79271,
+					"lang": null,
+					"contributors_enabled": false,
+					"is_translator": false,
+					"is_translation_enabled": false,
+					"profile_background_color": "1A1B1F",
+					"profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif",
+					"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif",
+					"profile_background_tile": true,
+					"profile_image_url": "http://pbs.twimg.com/profile_images/1135162652890685440/KzQqm5HQ_normal.jpg",
+					"profile_image_url_https": "https://pbs.twimg.com/profile_images/1135162652890685440/KzQqm5HQ_normal.jpg",
+					"profile_banner_url": "https://pbs.twimg.com/profile_banners/69872718/1559480895",
+					"profile_link_color": "2FC2EF",
+					"profile_sidebar_border_color": "000000",
+					"profile_sidebar_fill_color": "252429",
+					"profile_text_color": "666666",
+					"profile_use_background_image": true,
+					"has_extended_profile": false,
+					"default_profile": false,
+					"default_profile_image": false,
+					"following": false,
+					"follow_request_sent": false,
+					"notifications": false,
+					"translator_type": "regular"
+				},
+				"geo": null,
+				"coordinates": null,
+				"place": null,
+				"contributors": null,
+				"is_quote_status": false,
+				"retweet_count": 4,
+				"favorite_count": 2,
+				"favorited": false,
+				"retweeted": false,
+				"possibly_sensitive": false,
+				"lang": "en"
+			},
+			"is_quote_status": false,
+			"retweet_count": 4,
+			"favorite_count": 0,
+			"favorited": false,
+			"retweeted": false,
+			"lang": "en"
+		}
+	],
+	"search_metadata": {
+		"completed_in": 0.12,
+		"max_id": 1263801914023530497,
+		"max_id_str": "1263801914023530497",
+		"next_results": "?max_id=1263799423311757312&q=%2523ux&count=20&include_entities=1",
+		"query": "%2523ux",
+		"refresh_url": "?since_id=1263801914023530497&q=%2523ux&include_entities=1",
+		"count": 20,
+		"since_id": 0,
+		"since_id_str": "0"
+	}
+}

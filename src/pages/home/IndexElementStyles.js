@@ -76,17 +76,18 @@ export const LeftContentDiv = styled(ContentDiv)`
 `;
 export const LeftContent = styled.div`
 	background: #d8d8d8;
-	max-height: calc(100vh - 110px);
+	max-height: calc(100vh - 75px);
 
 	overflow: auto;
 	padding-bottom: 10px;
 	@media (max-width: 813px) {
-		max-height: 280px;
+		max-height: unset;
+		background: unset;
 	}
 `;
 export const StickyDiv = styled.div`
 	position: sticky;
-	top: 100px;
+	top: 75px;
 `;
 
 export const StatsInfluencersWrapperDiv = styled.div`
@@ -103,3 +104,9 @@ export const StatsInfluencersWrapperDiv = styled.div`
 export const StatisticsDiv = styled.div``;
 
 export const InfluencersDiv = styled.div``;
+export const TweetsDiv = styled.div`
+	.scroll_div {
+		overflow-y: auto;
+		max-height: 355px;
+	}
+`;

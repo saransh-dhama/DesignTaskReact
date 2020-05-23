@@ -22,7 +22,7 @@ const StatsBlock = ({ data, ...props }) => {
 		setData(isWeekly ? data.weekly : data.monthly);
 	}, [setData, isWeekly, data.weekly, data.monthly]);
 	return (
-		<StatsDiv>
+		<StatsDiv onClick={() => setDropdownVisible(!isDropdownVisible)}>
 			<TabDiv className='tab__div'>
 				<TabButton active={isWeekly} onClick={toggleWeekly}>
 					Weekly
@@ -43,7 +43,7 @@ const StatsBlock = ({ data, ...props }) => {
 						data-toggle='dropdown'
 						aria-haspopup='true'
 						aria-expanded='false'
-						onClick={() => setDropdownVisible(true)}
+						onClick={() => setDropdownVisible(!isDropdownVisible)}
 					>
 						All
 					</button>

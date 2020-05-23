@@ -12,7 +12,7 @@ const ToDoBlockWrapper = styled.div`
 	margin-top: 10px;
 	font-size: 1rem;
 	@media (max-width: 990px) {
-		width: 93%;
+		width: 100%;
 	}
 `;
 const HeadingDiv = styled.div`

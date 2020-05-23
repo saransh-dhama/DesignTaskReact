@@ -20,6 +20,7 @@ const PersonTypeBodyDiv = styled.div`
 export const EachStatBlock = styled.div`
 	width: 60px;
 	display: inline-block;
+	margin-right: 21px;
 	span {
 		display: block;
 	}
