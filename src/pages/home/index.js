@@ -6,6 +6,7 @@ import {
 	LeftContentDiv,
 	LeftContent,
 	StatsInfluencersWrapperDiv,
+	TwoBlockDiv,
 	StatisticsDiv,
 	InfluencersDiv,
 	StickyDiv,
@@ -23,6 +24,7 @@ const HomePageComponent = () => {
 	const tweetsSelector = (tweet, index) => {
 		return <TweetsBlock data={tweet} key={index} />;
 	};
+	console.log(tweetsData);
 	return (
 		<HomePage className='home-page__section'>
 			<div className='home-page__section__container container'>
@@ -30,31 +32,33 @@ const HomePageComponent = () => {
 				<button className='createDesktop'>CREATE A NEW CAMPAIGN</button>
 				<button className='createMobile'>+</button>
 				<div className='row'>
-					<RightContentDiv className='rightContent__div'>
+					<RightContentDiv className='rightContent__div col'>
 						<Block title='Ongoing Campaigns'>
 							{Data.map((campaignData, index) => {
 								return <Campaign campaign={campaignData} key={index} />;
 							})}
 						</Block>
 						<StatsInfluencersWrapperDiv className='StatsInfluencersWrapper__div row'>
-							<StatisticsDiv className='Statistics__div'>
-								<Block title='Statistics overview'>
-									<StatsBlock data={ChartData} />
-								</Block>
-							</StatisticsDiv>
-							<InfluencersDiv className='Influencers__div'>
-								<Block title='Top influencers'>
-									{Influencers.map((Influencer, index) => {
-										return <InfluencerBlock data={Influencer} key={index} />;
-									})}
-								</Block>
-							</InfluencersDiv>
+							<TwoBlockDiv className='twoBlock__div'>
+								<StatisticsDiv className='Statistics__div'>
+									<Block title='Statistics overview'>
+										<StatsBlock data={ChartData} />
+									</Block>
+								</StatisticsDiv>
+								<InfluencersDiv className='Influencers__div'>
+									<Block title='Top influencers'>
+										{Influencers.map((Influencer, index) => {
+											return <InfluencerBlock data={Influencer} key={index} />;
+										})}
+									</Block>
+								</InfluencersDiv>
+							</TwoBlockDiv>
 							<TweetsDiv className='tweets__div'>
 								<Block title='Tweeter feed'>
 									<div className='scroll_div'>
 										{tweetsData.map((tweet, index) => {
 											const hasUXTag = tweet.entities.hashtags.find((tag) => {
-												return tag.text === 'UX' || tag.text === 'ux';
+												return tag.text.toLowerCase() === 'ux';
 											});
 
 											return hasUXTag ? tweetsSelector(tweet, index) : null;

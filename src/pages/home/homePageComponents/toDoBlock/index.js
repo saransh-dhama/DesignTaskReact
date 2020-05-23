@@ -11,7 +11,7 @@ const ToDoBlockWrapper = styled.div`
 	margin: auto;
 	margin-top: 10px;
 	font-size: 1rem;
-	@media (max-width: 990px) {
+	@media (max-width: 812px) {
 		width: 100%;
 	}
 `;

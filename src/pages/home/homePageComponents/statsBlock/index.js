@@ -22,7 +22,7 @@ const StatsBlock = ({ data, ...props }) => {
 		setData(isWeekly ? data.weekly : data.monthly);
 	}, [setData, isWeekly, data.weekly, data.monthly]);
 	return (
-		<StatsDiv onClick={() => setDropdownVisible(!isDropdownVisible)}>
+		<StatsDiv>
 			<TabDiv className='tab__div'>
 				<TabButton active={isWeekly} onClick={toggleWeekly}>
 					Weekly

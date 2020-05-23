@@ -1,5 +1,3 @@
-This project was a design task for **\*\*\*\*** company
-
 ## Available Scripts
 
 In the project directory, you can run:

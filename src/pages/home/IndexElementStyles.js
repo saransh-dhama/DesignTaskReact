@@ -5,7 +5,7 @@ export const HomePage = styled.section`
 	padding: 39px 0px;
 
 	h1 {
-		font-size: 18px;
+		font-size: 1.8em;
 		font-weight: ${(props) => props.theme.fontBold};
 		color: ${(props) => props.theme.color};
 		display: inline-block;
@@ -62,10 +62,11 @@ export const RightContentDiv = styled(ContentDiv)`
 	padding: 15px 10px 0px 15px;
 	@media (max-width: 813px) {
 		width: 100%;
+		padding: 15px 15px 0px 15px;
 	}
 `;
 export const LeftContentDiv = styled(ContentDiv)`
-	width: 33.33%;
+	width: 319px;
 	padding: 11px 0px 0px 0px;
 	max-width: 319px;
 	@media (max-width: 813px) {
@@ -76,8 +77,8 @@ export const LeftContentDiv = styled(ContentDiv)`
 `;
 export const LeftContent = styled.div`
 	background: #d8d8d8;
-	max-height: calc(100vh - 75px);
-
+	/* max-height: calc(100vh - 75px); */
+	max-height: 644px;
 	overflow: auto;
 	padding-bottom: 10px;
 	@media (max-width: 813px) {
@@ -87,7 +88,7 @@ export const LeftContent = styled.div`
 `;
 export const StickyDiv = styled.div`
 	position: sticky;
-	top: 75px;
+	top: 140px;
 `;
 
 export const StatsInfluencersWrapperDiv = styled.div`
@@ -95,11 +96,19 @@ export const StatsInfluencersWrapperDiv = styled.div`
 	display: grid;
 	grid-column-gap: 21px;
 	grid-row-gap: 23px;
-	/* grid-template-columns: 300px 297px 1fr; */
-	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-	@media (max-width: 813px) {
+	grid-template-columns: 621px 1fr;
+	@media (max-width: 1545px) {
+		grid-template-columns: repeat(auto-fit, minmax(621px, 1fr));
+	}
+	@media (max-width: 991px) {
 		grid-template-columns: repeat(auto-fill, 100%);
 	}
+`;
+export const TwoBlockDiv = styled.div`
+	display: grid;
+	grid-column-gap: 21px;
+	grid-row-gap: 23px;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 `;
 export const StatisticsDiv = styled.div``;
 

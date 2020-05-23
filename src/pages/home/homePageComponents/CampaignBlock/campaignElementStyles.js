@@ -136,6 +136,7 @@ const SmallNumberDiv = styled.div`
 	grid-template-columns: repeat(auto-fit, minmax(60px, 60px));
 	@media (max-width: 990px) {
 		grid-column-gap: 15px;
+		grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
 	}
 `;
 export const InstaStatsDiv = styled(SmallNumberDiv)``;

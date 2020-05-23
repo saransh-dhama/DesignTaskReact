@@ -36,7 +36,7 @@ const InfluencersDiv = styled.div`
 		text-align: center;
 		border: 1px solid #d9d9d9;
 		border-radius: ${(props) => props.theme.radius};
-		padding: 1px 12px;
+		padding: 5px 12px;
 		height: 35px;
 		width: 85px;
 		line-height: 13px;

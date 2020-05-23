@@ -5,7 +5,7 @@ export const NavigationBarMobile = styled.section`
 	position: fixed;
 	width: 100%;
 	z-index: 1000;
-	height: 70px;
+	height: 59px;
 	width: 100%;
 	@media (min-width: 813px) {
 		display: none;
@@ -49,7 +49,7 @@ export const SideWrapperSection = styled.section`
 	position: fixed;
 	left: 250px;
 	width: ${(props) => (props.show ? '100%' : '0')};
-	height: calc(100vh - 70px);
+	height: calc(100vh - 48px);
 	overflow: scroll;
 	margin-left: -250px;
 	overflow-y: auto;
@@ -61,26 +61,9 @@ export const SideWrapperSection = styled.section`
 	@media (min-width: 813px) {
 		display: none;
 	}
-	ul {
-		position: absolute;
-		top: 0;
-		margin: 0;
-		padding: 0;
-		list-style: none;
-
-		li {
-			text-indent: 20px;
-			line-height: 50px;
-			font-size: 1.6em;
-			a {
-				display: block;
-				text-decoration: none;
-				&.active {
-					text-decoration: none;
-					font-weight: 700;
-				}
-			}
-		}
+	.nav-item {
+		padding: 5px 15px;
+		border-bottom: 1px solid #d9d9d9;
 	}
 `;
 export const BackDrop = styled.div`

@@ -53,16 +53,16 @@ const PersonTypeBody = ({ data, ...props }) => {
 
 			<div className='text_div'>
 				<div className='name'>
-					<span>Amy Champeon</span>
+					<span>{data.name}</span>
 				</div>
 				<div className='stats'>
 					<EachStatBlock>
-						<span className='number'>34 567</span>
+						<span className='number'>{data.insta}</span>
 						<span className='type'>INSTAGRAM FOLLOWERS</span>
 					</EachStatBlock>
 					<EachStatBlock>
-						<span className='number'>34 567</span>
-						<span className='type'>INSTAGRAM FOLLOWERS</span>
+						<span className='number'>{data.snapchat}</span>
+						<span className='type'>SNAPCHAT FOLLOWERS</span>
 					</EachStatBlock>
 				</div>
 			</div>

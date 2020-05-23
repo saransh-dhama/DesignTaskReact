@@ -29,37 +29,27 @@ const TweetsDiv = styled.div`
 			}
 		}
 		.date {
-			font-size: 1em;
+			font-size: 0.9em;
 			color: ${(props) => props.theme.colorLight};
 			margin-bottom: 5px;
 		}
 	}
 	.tweet {
-		font-size: 1.2em;
+		font-size: 1em;
 		b {
-			text-transform: uppercase;
+			color: ${(props) => props.theme.colorLightEx};
 		}
 	}
 `;
 const Tweet = ({ data, ...props }) => {
-	const GetHighlightedText = (text, highlight) => {
-		const parts = text.split(new RegExp(`(${highlight})`, 'gi'));
-		let formatedText = `${parts[0] ? parts[0] : ``}<b>${
-			parts[1] ? parts[1] : ``
-		}</b>`;
-		for (let i = 2; i < parts.length; i++) {
-			formatedText = formatedText + `${parts[i] ? parts[i] : ``}`;
-		}
-		return formatedText;
-	};
-	function createMarkup() {
-		const markUp = data.entities.hashtags.reduce(function (
-			accumulator,
-			currentValue
-		) {
-			return GetHighlightedText(accumulator, `#${currentValue.text}`);
-		},
-		data.text);
+	function createHighlightedMarkup() {
+		let markUp = data.text;
+		data.entities.hashtags.forEach((hashtag) => {
+			markUp = markUp.replace(
+				new RegExp(`#${hashtag.text} `, 'gi'),
+				`<b>#${hashtag.text}</b> `
+			);
+		});
 		return { __html: markUp };
 	}
 	return (
@@ -82,7 +72,7 @@ const Tweet = ({ data, ...props }) => {
 				</div>
 
 				<div className='tweet'>
-					<span dangerouslySetInnerHTML={createMarkup()}></span>
+					<span dangerouslySetInnerHTML={createHighlightedMarkup()}></span>
 				</div>
 			</div>
 		</TweetsDiv>
