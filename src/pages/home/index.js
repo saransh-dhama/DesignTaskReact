@@ -21,9 +21,6 @@ import TweetsBlock from './homePageComponents/tweetsBlock';
 import TwitterJson from './twitter-data.json';
 const HomePageComponent = () => {
 	const tweetsData = TwitterJson.statuses;
-	const tweetsSelector = (tweet, index) => {
-		return <TweetsBlock data={tweet} key={index} />;
-	};
 	return (
 		<HomePage className='home-page__section'>
 			<div className='home-page__section__container container'>
@@ -55,13 +52,16 @@ const HomePageComponent = () => {
 							<TweetsDiv className='tweets__div'>
 								<Block title='Tweeter feed'>
 									<div className='scroll_div'>
-										{tweetsData.map((tweet, index) => {
-											const hasUXTag = tweet.entities.hashtags.find((tag) => {
-												return tag.text.toLowerCase() === 'ux';
-											});
-
-											return hasUXTag ? tweetsSelector(tweet, index) : null;
-										})}
+										{tweetsData
+											.filter(({ entities }) => {
+												return entities.hashtags.find(
+													(hashtag) => hashtag.text.toLowerCase() === 'ux'
+												);
+											})
+											.slice(0, 10)
+											.map((tweet, index) => (
+												<TweetsBlock data={tweet} key={index} />
+											))}
 									</div>
 								</Block>
 							</TweetsDiv>
