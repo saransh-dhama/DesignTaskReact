@@ -20,7 +20,6 @@ import TweetsBlock from './homePageComponents/tweetsBlock';
 import TwitterJson from './twitter-data.json';
 const HomePageComponent = () => {
 	const tweetsData = TwitterJson.statuses;
-	console.log(tweetsData);
 	const tweetsSelector = (tweet, index) => {
 		return <TweetsBlock data={tweet} key={index} />;
 	};

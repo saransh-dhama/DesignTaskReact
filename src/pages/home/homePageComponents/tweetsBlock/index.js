@@ -36,9 +36,26 @@ const TweetsDiv = styled.div`
 	}
 	.tweet {
 		font-size: 1.2em;
+		b {
+			text-transform: uppercase;
+		}
 	}
 `;
 const Tweet = ({ data, ...props }) => {
+	const GetHighlightedText = (text, highlight) => {
+		const parts = text.split(new RegExp(`(${highlight})`, 'gi'));
+		return `${parts[0]}<b>${parts[1]}</b>${parts[2]}`;
+	};
+	function createMarkup() {
+		const markUp = data.entities.hashtags.reduce(function (
+			accumulator,
+			currentValue
+		) {
+			return GetHighlightedText(accumulator, `#${currentValue.text}`);
+		},
+		data.text);
+		return { __html: markUp };
+	}
 	return (
 		<TweetsDiv className='tweets__div'>
 			<img
@@ -59,7 +76,7 @@ const Tweet = ({ data, ...props }) => {
 				</div>
 
 				<div className='tweet'>
-					<span>{data.text}</span>
+					<span dangerouslySetInnerHTML={createMarkup()}></span>
 				</div>
 			</div>
 		</TweetsDiv>
