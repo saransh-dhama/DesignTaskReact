@@ -75,6 +75,7 @@ export const ProfileButton = styled.button`
 	font-size: 1.4em;
 	padding: 0px;
 	padding-left: 12px;
+	background: white;
 	img {
 		margin-right: 3px;
 	}

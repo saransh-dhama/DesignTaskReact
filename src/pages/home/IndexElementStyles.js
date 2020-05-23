@@ -46,6 +46,7 @@ export const HomePage = styled.section`
 	@media (min-width: 813px) {
 		.home-page__section__container {
 			padding-left: 0px;
+			padding-right: 0px;
 		}
 	}
 `;
@@ -90,31 +91,15 @@ export const StickyDiv = styled.div`
 
 export const StatsInfluencersWrapperDiv = styled.div`
 	padding: 13px 15px 15px 15px;
-	display: inline-flex;
-	justify-content: flex-start;
-`;
-export const StatisticsDiv = styled.div`
-	width: 300px;
-	@media (max-width: 990px) {
-		width: 100%;
-		max-width: 100%;
-		margin-right: unset;
-	}
-`;
-
-export const InfluencersDiv = styled.div`
-	padding: 0px;
-	width: 33.33%;
-	min-width: 295px;
-	margin-left: 21px;
-	@media (max-width: 990px) {
-		width: 100%;
-		max-width: 100%;
-		margin-bottom: 23px;
-	}
+	display: grid;
+	grid-column-gap: 21px;
+	grid-row-gap: 23px;
+	/* grid-template-columns: 300px 297px 1fr; */
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 	@media (max-width: 813px) {
-		width: 100%;
-		max-width: 100%;
-		padding: 15px;
+		grid-template-columns: repeat(auto-fill, 100%);
 	}
 `;
+export const StatisticsDiv = styled.div``;
+
+export const InfluencersDiv = styled.div``;
