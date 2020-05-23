@@ -83,8 +83,6 @@ const Tweet = ({ data, ...props }) => {
 
 				<div className='tweet'>
 					<span dangerouslySetInnerHTML={createMarkup()}></span>
-					<br />
-					{data.text}
 				</div>
 			</div>
 		</TweetsDiv>
