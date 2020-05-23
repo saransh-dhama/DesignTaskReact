@@ -24,7 +24,6 @@ const HomePageComponent = () => {
 	const tweetsSelector = (tweet, index) => {
 		return <TweetsBlock data={tweet} key={index} />;
 	};
-	console.log(tweetsData);
 	return (
 		<HomePage className='home-page__section'>
 			<div className='home-page__section__container container'>
